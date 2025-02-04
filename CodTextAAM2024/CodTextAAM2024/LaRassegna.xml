@@ -1,0 +1,2221 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="trasforma.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_rivista.dtd">
+<TEI version = "4.9.0" xml:lang="it" xmlns = "http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+    <!--intestazione-->
+        <fileDesc>
+            <!--titolo edizione digitale che facciamo noi-->
+            <titleStmt>
+                <title type="main">LA RASSEGNA SETTIMANALE</title>
+				<title type="sub">di politica, scienze, lettere ed arti.</title>
+				<title type="sub">Versione digitalizzata.</title>
+                <author>Leopoldo Franchetti</author>
+				<author>Sidney Sonnino</author>
+            </titleStmt> 
+			<!--finito titolo edizione nostra-->
+			<!--edizione digitale-->
+            <editionStmt>
+				<edition>Edizione digitale
+					<date when="2025-02">Febbraio 2025</date>			
+				</edition>
+					<respStmt>
+						<resp>Revisionato da:</resp>
+						<name>Angelo Mario Del Grosso</name>
+					</respStmt>
+					<respStmt>
+						<resp>Codifica di:</resp>
+						<name type = "coder" xml:id="mbar">Barresi Matteo</name>
+						<name type = "coder" xml:id="andbltt">Bolettieri Andrea</name>
+						<name type = "coder" xml:id="alierr">Errico Alice</name>
+					</respStmt>
+			</editionStmt>
+			<!--finito edizione digitale-->
+			<!--info pubblicazione edizione nostra-->
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability status="free">
+					<licence>Opera ad accesso libero</licence>
+				</availability>
+                <date when="2025-02">Febbraio 2025</date>
+            </publicationStmt>
+			<!--fine info pubblicazione edizione nostra-->
+           <!--fonte primaria-->
+            <sourceDesc>
+                <biblFull>
+                    <titleStmt>
+                        <title type="main">LA RASSEGNA SETTIMANALE</title>
+						<title type="sub">di politica, scienze, lettere ed arti.</title>
+                        <author>Leopoldo Franchetti</author>
+						<author>Sidney Sonnino</author>
+                        <respStmt>
+                            <resp>Gerente responsabile</resp>
+                            <name>Angiolo Gherardini</name>
+                        </respStmt>
+                    </titleStmt>
+					<extent>
+						<measure unit="pages" quantity="6">6 pagine</measure>
+					</extent>
+                    <publicationStmt>
+                        <authority>Nomen nescio</authority>
+                        <distributor>Nomen nescio</distributor>
+                        <publisher>Tipografia Barbera.</publisher>
+                        <pubPlace>Firenze</pubPlace>
+                        <date when="1878-04-21">21 Aprile 1878.</date>
+                    </publicationStmt>
+                    <seriesStmt>
+                        <title>LA RASSEGNA SETTIMANALE</title>
+						<biblScope unit="Volume">1</biblScope>
+						<biblScope unit="Issue">16</biblScope>
+						<biblScope unit="pages">285-287, 302-304</biblScope>
+                    </seriesStmt>
+                </biblFull>
+            </sourceDesc>
+			<!--Fine fonte primaria-->
+        </fileDesc>
+		<!--Info sul file digitale e codifica-->
+        <encodingDesc>
+			<p>Codifica di tipo diplomatico-interpretativo, con piccoli interventi testuali e la rappresentazione di danni e/o cambiamenti. Edizione image based contenente sia codifica testuale sia codifica di immagini.</p>
+			<projectDesc>
+				<p>Si tratta della digitalizzazione di un opuscolo di una rivista ottocentesca di cultura e politica, La Rassegna Settimanale. L'opuscolo, composto da sedici pagine, è stato digitalizzato ponendo in focus un numero ristretto di articoli, entrate bibliografiche e notizie rispetto alal totalità dell'opuscolo.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>Sono stati codificati piccoli interventi per la correzione di doppie e lettere mancanti.</p>
+				</correction>
+				<normalization method="markup">
+					<p>Le parole desuete sono state codificate anche nella loro forma colloquiale e contemporanea utilizzando <gi>choice</gi>, <gi>sic</gi> e <gi>corr</gi>.</p>
+				</normalization>
+				<hyphenation eol="all">
+					<p>Tutti i trattini di fine riga sono stati mantenuti.</p>
+				</hyphenation>
+				<punctuation marks="all" placement="internal">
+					<p>Tutti i segni di punteggiatura sono stati inclusi e posizionati dentro elementi di markup.</p>
+				</punctuation>
+				<quotation marks="all">
+					<p>Tutti i segni grafici sono mantenuti nel testo e rappresentati da appropriati caratteri in Unicode.</p>
+				</quotation>
+				<segmentation>
+					<p><gi>pb</gi> è stato utilizzato per marcare la divisione in pagine. <gi>cb</gi> è stato utilizzato per marcare la divisione in colonne. <gi>p</gi> è stato utilizzato per marcare la divisione in paragrafi degli articoli. <gi>lb</gi> è stato utilizzato per marcare la divisione in righe.</p> 
+				</segmentation>
+			</editorialDecl>
+		</encodingDesc>
+        <profileDesc> 
+			<calendarDesc>
+				<calendar xml:id="cal_Gregorian">
+					<p>Calendario Gregoriano</p>
+				</calendar>
+			</calendarDesc>
+			<langUsage>
+				<language ident="it">Italiano</language>
+			 </langUsage>
+			 <textDesc n="magazine">
+				<channel mode="w">Stampa, fascicolo singolo</channel>
+				<constitution type="composite"/>
+				<derivation type="original"/>
+				<domain type="public"/>
+				<factuality type="fact"/>
+				<interaction type="none"/>
+				<preparedness type="revised"/>
+				<purpose type="inform" degree="high"/>
+			 </textDesc>
+		</profileDesc>
+		<!--Fine Info sul file digitale e codifica-->
+    </teiHeader>
+		<!--Fine Tei Header-->
+
+    <facsimile>
+		<surface xml:id="p1" start="#pb1" n="1">
+			<graphic url='img/1.png' width='2303.8px' height='3353.8px' />
+			<zone ulx= "61" uly="273" lrx="507" lry="368" xml:id="par1Img" start="#par1Html"/>
+			<zone ulx= "56" uly="369" lrx="503" lry="480" xml:id="par2Img" start="#par2Html"/>
+			<zone ulx= "59" uly="489" lrx="503" lry="751" xml:id="par3Img" start="#par3Html"/>
+			<zone ulx= "59" uly="756" lrx="502" lry="867" xml:id="par4Img" start="#par4Html"/>
+			<zone ulx= "62" uly="868" lrx="506" lry="1024" xml:id="par5Img" start="#par5Html"/>
+			<zone ulx= "60" uly="1025" lrx="504" lry="1311" xml:id="par6Img" start="#par6Html"/>
+			<zone ulx= "62" uly="1308" lrx="504" lry="1389" xml:id="par7_1Img" start="#par7_1Html"/>
+			<zone ulx= "522" uly="236" lrx="968" lry="349" xml:id="par7_2Img" start="#par7_2Html"/>
+			<zone ulx= "520" uly="382" lrx="689" lry="367" xml:id="par8Img" start="#par8Html"/>
+			<zone ulx= "522" uly="367" lrx="969" lry="671" xml:id="par9Img" start="#par9Html"/>
+			<zone ulx= "523" uly="673" lrx="972" lry="710" xml:id="par10Img" start="#par10Html"/>
+			<zone ulx= "523" uly="714" lrx="969" lry="804" xml:id="par11Img" start="#par11Html"/>
+			<zone ulx= "525" uly="808" lrx="968" lry="864" xml:id="par12Img" start="#par12Html"/>
+			<zone ulx= "523" uly="868" lrx="971" lry="1169" xml:id="par13Img" start="#par13Html"/>
+			<zone ulx= "523" uly="1175" lrx="967" lry="1247" xml:id="par14Img" start="#par14Html"/>
+			<zone ulx= "522" uly="1253" lrx="965" lry="1307" xml:id="par15Img" start="#par15Html"/>
+			<zone ulx= "609" uly="1316" lrx="871" lry="1370" xml:id="par16Img" start="#par16Html"/>
+		</surface>
+		
+        <surface xml:id="p2" start="#pb2" n="2">
+			<graphic url='img/2.png' width='2303.8px' height='3353.8px' />
+			<zone ulx='86' uly='142' lrx='532' lry='309' xml:id="par17Img" start="#par1Html"/>
+			<zone ulx='83' uly='315' lrx='531' lry='1245' xml:id="par18Img" start="#par2Html"/>
+			<zone ulx='83' uly='1248' lrx='531' lry='1374' xml:id="par19_1Img" start="#par19_1Html"/>
+			<zone ulx='541' uly='103' lrx='995' lry='478' xml:id="par19_2Img" start="#par19_2Html"/>
+			<zone ulx='551' uly='485' lrx='997' lry='995' xml:id="par20Img" start="#par20Html"/>
+			<zone ulx='551' uly='1001' lrx='997' lry='1380' xml:id="par21_1Img" start="#par21_1Html"/>
+		</surface>
+
+		<surface xml:id="p3" start="#pb3" n="3">
+			<graphic url='img/3.png' width='2307.8px' height='3341.8px'/>
+			<zone ulx = '69' uly = '102' lrx = '509' lry = '226'  xml:id="par21_2Img" start="#par21_2Html"/>
+			<zone ulx = '70' uly = '236' lrx =  '517' lry = '562' xml:id="par22Img" start="#par22Html" />
+			<zone ulx = '90' uly = '580' lrx = '514' lry = '597' xml:id="par_bib1Img" start="#par_bib1Html" />
+			<zone ulx = '67' uly = '654' lrx = '515' lry = '801'  xml:id="par23Img" start="#par23Html"/>
+			<zone ulx = '67' uly = '805' lrx = '512' lry = '1227' xml:id="par24Img" start="#par24Html" />
+			<zone ulx = '71' uly = '1229' lrx= '512' lry = '1379' xml:id="par25_1Img" start="#par25_1Html" />
+			<zone ulx = '527' uly = '99' lrx = '973' lry = '136' xml:id="par25_2Img" start="#par25_2Html"/>
+			<zone ulx = '528' uly = '141' lrx = '975' lry = '406' xml:id="par26Img" start="#par26Html" />
+			<zone ulx = '528' uly = '411' lrx = '758' lry = '427' xml:id="par27Img" start="#par27Html"/>
+			<zone ulx = '529' uly = '430' lrx = '976' lry = '674' xml:id="par28Img" start="#par28Html"/>
+			<zone ulx = '532' uly = '679' lrx = '973' lry = '752' xml:id="par29Img" start="#par29Html"/>
+			<zone ulx = '532' uly = '756' lrx = '973' lry = '810' xml:id="par30Img" start="#par30Html"/>
+		</surface>
+
+
+		<surface xml:id="p14" start="#pb14" n="4">
+			<graphic url='img/14.png' width='2306.33334px' height='3380.33334px' />
+			<zone ulx='69' uly='134' lrx='510' lry='169' xml:id="titlep1Img" start="#titlep1Html"/>
+			<zone ulx='67' uly='180' lrx='512' lry='387' xml:id="par31Img" start="#par31Html"/>
+			<zone ulx='67' uly='389' lrx='515' lry='766' xml:id="par32Img" start="#par32Html"/>
+		</surface>
+
+		<surface xml:id="p15" start="#pb15" n="5">
+			<graphic url='img/15.png' width='2307.33334px' height='3336.33334px' />
+			<zone ulx='63' uly='1264' lrx='508' lry='1316' xml:id="titlep2Img" start="#titlep2Html"/>
+			<zone ulx='67' uly='1323' lrx='507' lry='1391' xml:id="par33_1Img" start="#par33_1Html"/>
+			<zone ulx='525' uly='100' lrx='968' lry='713' xml:id="par33_2Img" start="#par33_2Html"/>
+			<zone ulx='525' uly='750' lrx='968' lry='795' xml:id="ercor1Img" start="#ercor1Html"/>
+			<zone ulx='525' uly='835' lrx='971' lry='1060' xml:id="par34Img" start="#par34Html"/>
+			<zone ulx='526' uly='1065' lrx='968' lry='1232' xml:id="par35Img" start="#par35Html"/>
+			<zone ulx='526' uly='1236' lrx='971' lry='1390' xml:id="par36_1Img" start="#par36_1Html"/>
+		</surface>
+		
+		<surface xml:id="p16" start="#pb16" n="6">
+			<graphic url='img/16.png' width='2323.8px' height='3387.8px' />
+
+			<zone ulx = '77' uly = '111' lrx = '523' lry = '172' xml:id="par36_2Img" start="#par36_2Html"/>
+			<zone ulx = '77' uly = '180' lrx = '519' lry = '276' xml:id="par37Img" start="#par37Html"/>
+			<zone ulx = '80' uly = '282' lrx = '517' lry = '398' xml:id="par38Img" start="#par38Html"/>
+			<zone ulx = '78' uly = '403' lrx = '520' lry = '448' xml:id="par39Img" start="#par39Html"/>
+			<zone ulx = '80' uly = '451' lrx = '521' lry = '600' xml:id="par40Img" start="#par40Html"/>
+			<zone ulx = '79' uly = '613' lrx = '517' lry = '662' xml:id="par41Img" start="#par41Html"/>
+
+			<zone ulx = '79' uly = '701' lrx = '520' lry = '734' xml:id="par42Img" start="#par42Html"/>
+			<zone ulx = '76' uly = '1050' lrx = '517' lry = '1088' xml:id="par43Img" start="#par43Html"/>
+			<zone ulx = '77' uly = '1202' lrx = '519' lry = '1232' xml:id="par44Img" start="#par44Html"/>
+			<zone ulx ='534' uly = '1084' lrx = '976' lry = '1189' xml:id="par45Img" start="#par45Html"/>
+			<zone ulx ='536' uly = '1205' lrx = '976' lry = '1285 ' xml:id="par46Img" start="#par46Html"/>
+			<zone ulx = '595' uly = '1299' lrx = '947' lry = '1383 ' xml:id="par47Img" start="#par47Html"/>
+			
+		</surface>
+    </facsimile>
+
+    <sourceDoc>
+		<!--Descrizione di ciè che è presente ed è stato codificato in ogni singola immagine-->
+		<surfaceGrp>
+			<surface facs=".img/1.png">
+				<zone>Tutto ciò che è scritto nella pagina 285</zone>
+			</surface>
+			<surface facs=".img/2.png">
+				<zone>Tutto ciò che è scritto nella pagina 286</zone>
+			</surface>
+			<surface facs=".img/3.png">
+				<zone>Tutto ciò che è scritto nella pagina 287 tranne l'articolo "La ricostituzione del ministero dell'agricoltura".</zone>
+			</surface>
+			<surface facs=".img/14.png">
+				<zone>Solo la prima entrata bibliografica e la testatina.</zone>
+			</surface>
+			<surface facs=".img/15.png">
+				<zone>Dalla sezione "matematica" fino alla fine della pagina, compresa la testatina.</zone>
+			</surface>
+			<surface facs=".img/16.png">
+				<zone>La testatina, l'entrata bibliografica fino alle "Notizie" e le "Notizie" numero 1,3,5,12,13.</zone>
+			</surface>
+		</surfaceGrp>
+	</sourceDoc>
+	<!--Fine Info sul file digitale e codifica-->
+	<!--Text contiene la codifica del documento-->
+    <text xml:lang="it" type="magazine">
+		<!--Frontespizio che nel nostro caso è la testatina del giornale. Head per i titoli, Title per il titolo di un documento-->
+		<front>
+			<div type = "title">
+				<lb/><head type="mainTitle"><name type="opere" ref="#rassegna">LA RASSEGNA SETTIMANALE</name></head>
+				<lb/><head type="sub">di politica, scienze, lettere ed arti.</head>
+			</div>
+			<div type="trafiletto"> <!-- contiene volume, luogo, data e  issue, bibl contiene tutto il necessario a descrivere tramite biblscope
+			i vari elementi della rivista, luogo, data, numero, etc. Questi trafiletti sono codificati separatamente dagli articoli e sono ricollegati ad essi
+			tramite un fw e un ptr, fw indica una porzione fluttuante staccata dal corpo dell'articolo e ptr un puntatore che porta al documento.-->
+				<bibl xml:id="trafiletto285">
+					<lb/><biblScope unit="Volume">Vol. <num type="ordinal" value="1">1°</num>.</biblScope>
+					<pubPlace><name type="place" ref="#firenze">Firenze</name></pubPlace>
+					<date when="1878-04-21">21 Aprile 1878</date>.
+					<biblScope unit="Issue">N° 16.</biblScope>
+				</bibl>
+			</div>
+		</front>
+		<body>
+			<div type="article" xml:lang="it" n="1">
+				<pb n="1"/>
+				<fw type="header" n ="1">
+					<ptr target="#trafiletto285"></ptr>
+				</fw>
+				<cb n="1"/>
+				<head n ="1">
+					<lb/>LA RESPONSABILITÀ MINISTERIALE.
+				</head>
+				<ab type="testo_colonna" n="1">
+					<ab facs="#par1Img" xml:id="par1Html">
+						<lb/>Con decreto del <date when="1878-02-26"><num type="cardinal" value="26">26</num> febbraio</date> scorso, il <roleName type="politic_role">ministro</roleName> <name type="person" role="politician" ref="#mancini">Mancini</name>,
+						<lb/>seriamente preoccupato della <name type="theme">mancanza di una legge sulla
+						<lb/>responsabilità ministeriale</name>, nominava una <name type="organization" ref="#commissione">Commissione</name> con
+						<lb/>l’incarico di studiare l’ argomento ed elaborare un progetto
+						<lb/>da presentarsi al <name type="organization" ref="#parlamento">Parlamento</name>.
+					</ab>
+					
+					<ab facs="#par2Img" xml:id="par2Html">
+						<lb/>È un nuovo sintomo della manìa delle <name type="organization" ref="#commissione">commissioni</name> che
+						<lb/>ha invaso il <name type="organization" ref="#partito">partito</name> che è ora al <name type="organization" ref="#governo">governo</name>, manìa che co-
+						<lb break="no"/>stituisce uno dei fenomeni più singolari dello svolgimento
+						<lb/>della nostra vita politica, e che sarebbe forse innocua se
+						<lb/>non implicasse una grande dispersione di attività e di forze
+						<lb/>altrimenti utilizzabili.
+					</ab>
+					
+					<ab facs="#par3Img" xml:id="par3Html">
+						<lb/>Nel caso presente poi ci pare davvero che il decreto di
+						<lb/>nomina della <name type="organization" ref="#commissione">Commissione</name> anziché il <date when="1878-02-26"><num type="cardinal" value="26">26</num> febbraio</date>, avrebbe
+						<lb/>dovuto datarsi dal <date when="1878-04-01"><num type="ordinal" value="1">1°</num> aprile</date>, tanto solenne è la canzonatura
+						<lb/>fatta a tutte le sedici egregie persone nominate <roleName type="politic_role">commis-
+						<lb break="no"/>sari</roleName>. La nostra <name type="organization" ref="#camera">Camera</name> nella seduta dell’ <date when="1878-04-08"><num type="cardinal" value="8">8</num></date> corrente, quando
+						<lb/>l’<roleName type="politic_role" full="abb"><choice><abbr type="title" resp="#alierr" cert="high">on.</abbr><expan resp="#mbar" cert="high">on<ex>orevole</ex></expan></choice></roleName> <name type="person" role="politician" ref="#musolino">Musolino</name> parlò con entusiasmo delle belle istituzioni
+						<lb/>sanzionate dall’ ultima costituzione turca, dette in uno scop-
+						<lb break="no"/>pio d’ilarità. E non si avrebbe a ridere del mandato ora
+						<lb/>affidato a sedici uomini di <name type="organization" ref="#stato">Stato</name> di compilare un progetto
+						<lb/>sulla responsabilità Ministeriale, per parte di un <name type="organization" ref="#ministero">Ministero</name>
+						<lb/>che in pochi mesi seppe accumulare tante illegalità, tante
+						<lb/>infrazioni alle leggi fondamentali dello <name type="organization" ref="#stato">Stato</name>, quante forse
+						<lb/>non ne ha commesse nessun <roleName type="politic_role">gran <foreign xml:lang="tr"><choice><orig>Vizir</orig><reg resp="#alierr" cert="high">Visir</reg></choice></foreign></roleName>, dacché fu promul-
+						<lb break="no"/>gata l’ultima costituzione turca !
+					</ab>
+					
+					<ab facs="#par4Img" xml:id="par4Html">
+						<lb/>Ma è possibile che qualcuno ritenga sul serio che in
+						<lb/><name type="place" ref="#italia">Italia</name> <name type="theme">l’ essere stata in passato la responsabilità Ministe-
+						<lb break="no"/>riale lettera morta</name> sia dipeso dalla mancanza di una legge
+						<lb/>in proposito, e che in avvenire abbia a essere diversamente,
+						<lb/>quando dagli studi della <name type="organization" ref="#commissione">Commissione</name> uscisse un progetto
+						<lb/>idealmente perfetto ?
+					</ab>
+					
+					<ab facs="#par5Img" xml:id="par5Html">
+						<lb/>Si definisca con quanta accuratezza si voglia che cosa
+						<lb/>debba essere quella responsabilità, si determini pure scien-
+						<lb break="no"/>tificamente quali siano le azioni incriminabili, quale il grado
+						<lb/>di reità e delle scuse legali, e le pene applicabili, fintanto
+						<lb/>che la moralità politica sarà quella di ora, la responsabi-
+						<lb break="no"/>lità Ministeriale resterà una parola vuota di senso, <choice><orig>amme-
+						<lb break="no"/>noché</orig><reg resp="#alierr" cert="high">a me<lb/>no ché</reg></choice> si voglia restringerla alla sola sanzione della caduta
+						<lb/>dei <roleName type="politic_role">Ministri</roleName> dal potere.
+					</ab>
+					
+					<ab facs="#par6Img" xml:id="par6Html">
+						<lb/>Il <name type="organization" ref="#ministerodepretis">Ministero Depretis</name> cadde perchè aveva violato le pre-
+						<lb break="no"/>rogative parlamentari : <num type="ordinal" value="1">1°</num> con i decreti del <date when="1877-12-26"><num type="cardinal" value="26">26</num> dicembre</date>,
+						<lb/>che senza l’intervento del <name type="organization" ref="#parlamento">Parlamento</name>, arrogavano al po-
+						<lb break="no"/>tere esecutivo la facoltà di disfare e creare i <name type="organization" ref="#ministero">Ministeri</name> ;
+						<lb/><num type="ordinal" value="2">2°</num> con l’aumento per decreto della tariffa dei tabacchi
+						<lb/>a Sessione aperta ; <num type="ordinal" value="3">3°</num> con la spesa <choice><orig>pel</orig><reg resp="#alierr" cert="high">per il</reg></choice> dicastero della
+						<lb/>guerra di una diecina di milioni non consentiti dal bilancio
+						<lb/>votato dal <name type="organization" ref="#parlamento">Parlamento</name> ; <num type="ordinal" value="4">4°</num> con l’accrescere di suo arbitrio
+						<lb/>e senza l’intervento del <name type="organization" ref="#parlamento">Parlamento</name>, il numero delle linee
+						<lb/>ferroviarie da costruirsi in <name type="place" ref="#sicilia">Sicilia</name>, e con il bandire i rela-
+						<lb break="no"/>tivi appalti compromettendo così la decisione del potere
+						<lb/>legislativo ; <num type="ordinal" value="5">5°</num> con l’ impegnare arbitrariamente il <name type="organization" ref="#governo">Governo</name>
+						<lb/>nel sussidio al <name type="place" ref="#firenze">Comune di Firenze</name>, commettendo alle <name type="organization" ref="#banca">Banche</name>
+						<lb/>di fargli anticipazioni, e ciò anche di 2 milioni al di là del
+						<lb/>credito per l’ occupazione austriaca.
+					</ab>
+					
+					<ab facs="#par7_1Img" xml:id="par7_1Html">
+						<lb/>Quale è stata la pena di tanta oltracotanza ? Si è forse
+						<lb/>deplorato dalla <name type="organization" ref="#camera">Camera</name> che la <name type="organization" ref="#commissione">Commissione</name> nominata col
+						<lb/>decreto del <date when="1878-02-26"><num type="cardinal" value="26">26</num> febbraio</date> non avesse terminato i suoi lavori,
+						<lb/>onde poter scegliere la pena meglio applicabile al caso ? Si
+						<!--colonna-->
+					</ab>
+				</ab>
+				
+				<cb n="2"/>
+				<ab type="testo_colonna" n="2">
+					<ab facs="#par7_2Img" xml:id="par7_2Html">
+						<lb/>è forse almeno con un voto solenne del <name type="organization" ref="#parlamento">Parlamento</name> dato
+						<lb/>un marchio di biasimo nazionale contro gli uomini che ar-
+						<lb break="no"/>dirono violare le leggi fondamentali dello <name type="organization" ref="#stato">Stato</name> ? Si è forse
+						<lb/>almeno discussa la questione in <name type="organization" ref="#parlamento">Parlamento</name>, udendo le ra-
+						<lb break="no"/>gioni in difesa del <name type="organization" ref="#ministero">Ministero</name> incriminato, per rispetto se
+						<lb/>non altro del principio della responsabilità ministeriale?
+					</ab>
+					
+					<ab facs="#par8Img" xml:id="par8Html">
+						<lb/>Guardiamo i fatti.
+					</ab>
+					
+					<ab facs="#par9Img" xml:id="par9Html">
+						<lb/>La maggioranza elesse a <roleName type="politic_role">presidente della Camera</roleName> l’ <roleName type="politic_role" full="abb"><choice><abbr type="title">on.</abbr><expan resp="#mbar" cert="high">on<ex>orevole</ex></expan></choice></roleName>
+						<lb/><name type="person" role="politician" ref="#cairoli">Cairoli</name>. Il <name type="organization" ref="#gabinetto">Gabinetto</name> <choice><orig resp="#andbltt" cert="medium">credè</orig><reg resp="#andbltt" cert="medium">credette</reg></choice> <choice><expan resp="#andbltt" cert="medium"><ex>di</ex></expan></choice> dover interpretare quel voto
+						<lb/>come un segno di sfiducia e si dimise. L’ <roleName type="politic_role" full="abb"><choice><abbr type="title">on.</abbr><expan resp="#mbar" cert="high">on<ex>orevole</ex></expan></choice></roleName> <name type="person" role="politician" ref="#depretis">Depretis</name>, quegli
+						<lb/>stesso che come <roleName type="politic_role">Presidente del Consiglio</roleName> era direttamente
+						<lb/>responsabile di tutte quante le illegalità commesse, fu
+						<lb/>quindi eletto niente meno che <roleName type="politic_role">presidente della Commissione
+						<lb/>del bilancio</roleName> ; e, quasi ciò non bastasse, anche <roleName type="politic_role">presidente
+						<lb/>della <name type="organization" ref="#sottocommissione">Sottocommissione del bilancio delle finanze</name></roleName>, perchè
+						<lb/>potesse meglio e più minutamente sindacare, nell’ interesse
+						<lb/>delle prerogative parlamentari, l’operato del <name type="organization" ref="#ministero">Ministero</name> pas-
+						<lb break="no"/>sato. E la questione sulla legalità dei decreti del <date when="1877-12-26"><num type="cardinal" value="26">26</num> dicem-
+						<lb break="no"/>bre</date> fu appunto sollevata in quella <name type="organization" ref="#sottocommissione">Sottocommissione</name>, e l’ <roleName type="politic_role" full="abb"><choice><abbr type="title">on.</abbr><expan resp="#mbar" cert="high">on<ex>orevole</ex></expan></choice></roleName>
+						<lb/><name type="person" role="politician" ref="#depretis">Depretis</name>, tanta è la spudoratezza in materia di moralità
+						<lb/>politica, unì il suo voto a quello di altri quattro <roleName type="politic_role">deputati</roleName>
+						<lb/>per dichiarare semplicemente che quei decreti <hi rend="quoted"><q type="spoken">« non offen-
+						<lb break="no"/>dono le prerogative parlamentari. »</q></hi>
+					</ab>
+					
+					<ab facs="#par10Img" xml:id="par10Html">
+						<lb/>E la <name type="organization" ref="#camera">Camera</name> ora si è prorogata fino al <date when="1878-05-01"><num type="ordinal" value="1">1°</num> maggio</date>,
+						<lb/>quando avrà ben altro da fare che occuparsi del passato.
+					</ab>
+					
+					<ab facs="#par11Img" xml:id="par11Html"><lb break="no"/>In tutto questo non vi è stato dunque nè un voto par­
+						<lb/>lamentare sulla responsabilità dei <roleName type="politic">Ministri</roleName> del <name type="organization" ref="#ministerodepretis">Gabinetto
+						<lb/>Depretis</name>, di fronte alle gravissime accuse di violazione dei
+						<lb/>diritti del <name type="organization" ref="#parlamento">Parlamento</name>, nè <choice><orig>tampoco</orig><reg resp="#alierr" cert="high">tantomeno</reg></choice> una proposta di bia-
+						<lb break="no"/>simo, nè una discussione in proposito.
+					</ab>
+					
+					<ab facs="#par12Img" xml:id="par12Html">
+						<lb/>E poi non s’ha da ridere degli studi che il <roleName type="politic_role" full="yes">Ministro</roleName>
+						<lb/><name type="person" role="politician" ref="#mancini">Mancini</name> raccomandò particolarmente alla <name  type="politi_org" ref="#commissione">Commissione</name> da
+						<lb/>lui creata il <date when="1878-02-26"><num type="cardinal" value="26">26</num> febbraio</date> !
+					</ab>
+					
+					<ab facs="#par13Img" xml:id="par13Html">
+						<lb/>Forse molti vorranno invece ridere della ingenuità no-
+						<lb break="no"/>stra, nel credere che il <name type="organization" ref="#ministerodepretis">Ministero <name type="person" role="politician" ref="#depretis">Depretis</name></name> cadesse vera-
+						<lb break="no"/>mente in conseguenza delle gravi accuse che gli furono
+						<lb/>mosse sulla sua condotta costituzionale, anziché per gl’ in-
+						<lb break="no"/>trighi del gruppo <hi rend="italic">A</hi> o del gruppo <hi rend="italic">B</hi>. E sarà benissimo che
+						<lb/>questa seconda sia stata la vera cagione. Ma in ciò avremmo
+						<lb/>una prova <foreign><hi xml:lang="la" rend="italic">a fortiori</hi></foreign> di quanto sia attualmente illusoria
+						<lb/>ogni responsabilità dei <roleName type="politic_role">Ministri</roleName> ; poiché ne risulterebbe che
+						<lb/>le accuse di incostituzionalità mosse al <name type="organization" ref="#gabinetto">Gabinetto</name> non avreb-
+						<lb break="no"/>bero avuto di per sè <choice><orig>nemmanco</orig><reg resp="#alierr" cert="high">nemmeno</reg></choice> il valore di rovesciarlo,
+						<lb/>non che di farlo incorrere in alcuna sanzione penale ; ma
+						<lb/>invece sarebbero state soltanto una bandiera che poteva
+						<lb/>raggranellare qualche ingenuo campione di più, bandiera
+						<lb/>che fu messa nel cassetto, appena che, soddisfatti <choice><orig>gl'</orig><reg resp="#alierr" cert="high">gli</reg></choice> inte-
+						<lb break="no"/>ressi di partito, non sarebbe rimasto altro da tutelare che
+						<lb/>l’incolumità delle istituzioni.
+					</ab>
+					
+					<ab facs="#par14Img" xml:id="par14Html">
+						<lb/>Onde risulta <choice><sic resp="#andbltt" cert="high">pur troppo</sic><corr resp="#andbltt" cert="high">purtroppo</corr></choice> da tutto ciò, che la responsabilità
+						<lb/>ministeriale sia da mettersi in <name type="place" ref="#italia">Italia</name> tra i balocchi costitu-
+						<lb break="no"/>zionali, insieme con il diritto di petizione, quello della li-
+						<lb break="no"/>bertà di associazione e l’ altro del diritto di riunione.
+					</ab>
+					
+					<ab facs="#par15Img" xml:id="par15Html">
+						<lb/>Siamo sempre lì : tutta l’invocazione dei grandi princi-
+						<lb break="no"/>pii si fa per buttar giù chi è al potere : poi ai principii
+						<lb/>non si pensa più:
+					</ab>
+					
+					<ab facs="#par16Img" xml:id="par16Html">
+						<l/><hi rend="quoted"><q type="written">« E tutto si riduce, a parer mio,
+						<lb/><hi rend="bracketed">(Come disse un <name type="person" role="poet" ref="#poetamugello" resp="#andbltt" cert="medium">poeta</name> di <name type="place" ref="#mugello">Mugello</name>)</hi>
+						<l/>A dire : esci di lì, ci vo’ star io. »</q></hi>
+					</ab>
+				</ab>
+			</div>
+			<!-- fine primo articolo -->
+			
+			<!-- inizio secondo articolo -->
+			<div xml:lang="it" type="trafiletto">
+				<bibl xml:id="trafiletto286">
+					<lb/><biblScope unit="page"><num type="cardinal" value="286">286</num></biblScope>
+					<title><name type="opere" ref="#rassegna">LA RASSEGNA SETTIMANALE</name></title> [
+					<biblScope unit="Volume">Vol. <num type="ordinal" value="1">1°</num></biblScope>,
+					<biblScope unit="Issue">N° <num type="cardinal" value="1">16</num>.</biblScope>
+				</bibl>
+			</div>
+			<div type="article" xml:lang="it" n="2">
+				<pb n="2"/>
+				<cb n="3"/>
+				<fw type="header" n ="2">
+					<ptr target="#trafiletto286"></ptr>
+				</fw>
+				<head n="2">
+					<lb/>IL <name type="place" ref="#napoli">COMUNE DI NAPOLI</name>.
+				</head>
+				<ab type="testo_colonna" n="3">
+					<ab facs="#par17Img" xml:id="par17Html">
+						<lb/>Si assicura che il <name type="theme">decreto di scioglimento del <name type="organization" ref="#consiglio_comunale">Consiglio
+						<lb/>Comunale</name> di <name type="place" ref="#napoli">Napoli</name> sia stato firmato</name>, e verrà in buon punto
+						<lb/>a porre fine ad uno spettacolo sciagurato, che, negli ultimi
+						<lb/>mesi, ha offerto di sè a tutta <name type="place" ref="#italia">Italia</name> la prima città del <name type="organization" ref="#governo_it">re-
+						<lb break="no"/>gno</name>. Nell’aula del <name type="organization" ref="#municipio">municipio</name>, e in quasi tutt’i giornali napo-
+						<lb break="no"/>letani, era da più giorni un coro di rivelazioni, di accuse, di
+						<lb/><choice><orig resp="#alierr" cert="high">denunzie</orig><reg resp="#alierr" cert="high">denunce</reg></choice>, di confessioni, le quali, fra le meraviglie e il do-
+						<lb break="no"/>lore <choice><orig resp="#alierr" cert="high">d'</orig><reg resp="#alierr" cert="high">di</reg></choice> ogni buon cittadino italiano, <choice><orig>rendevan</orig><reg resp="#mbar" cert="high">rendevano</reg></choice> pubblica una
+						<lb/>pagina vergognosa di cronaca cittadina.
+					</ab>
+					
+					<ab facs="#par18Img" xml:id="par18Html"><lb/>Nel <date when="1876-07">luglio del 1876</date> <choice><orig>vien</orig><reg resp="#mbar" cert="high">viene</reg></choice> su a <name type="place" ref="#napoli">Napoli</name>, frutto dell’ anar-
+						<lb break="no"/>chia intellettuale e della corruzione elettorale, un <name type="organization" ref="#consiglio">Consi-
+						<lb break="no"/>glio</name> tutto d’un pezzo e tutto d’un colore. Quell’unanimità
+						<lb/>di voti pareva invincibile ; pareva destinato a perpetua po-
+						<lb break="no"/>polarità il nuovo <roleName type="politic_role">Sindaco</roleName>. Pochi e deboli gli avversari,
+						<lb/>moltissimi e potenti gli amici politici. Quand’ ecco a un
+						<lb/>tratto farglisi contro un noto deputato dello stesso suo
+						<lb/><name type="organization" ref="#partito">partito</name>, il campione dell’ ultima elezione, e metter su un
+						<lb/>giornale d’ opposizione al <hi rend="italic"><name type="organization" ref="#municipio">municipio</name> scialacquatore</hi> : ed ecco
+						<lb/>poco dopo mostrarglisi arcigno <choice><orig>anco</orig><reg resp="#alierr" cert="high">anche</reg></choice> il <roleName type="politic_role">Ministro</roleName> dell’in-
+						<lb break="no"/>terno. Un giornale amico del <roleName type="politic_role">Sindaco</roleName> scrive a lettere di
+						<lb/>scatola, che l’opposizione ha origine dalla negata conces-
+						<lb break="no"/>sione dell’ appalto del <name type="place" ref="#san_carlo_teatro">San Carlo</name> e da pretese ingiustifica-
+						<lb break="no"/>bili ; risponde il deputato rivelando nel proprietario del
+						<lb/>l’audace gazzetta l’ assuntore dello spazzamento, cui fu
+						<lb/><hi rend="quoted"><q type="emph">« riveduto »</q></hi> il contratto ed accresciuto il prezzo, ed accu-
+						<lb break="no"/>sando con prove due <roleName type="linked">vice-sindaci</roleName> e un <roleName type="politic_role">assessore</roleName> di aver
+						<lb/>patrocinata la causa di un camorrista. La guerra è tosto
+						<lb/>assunta ufficialmente dal <roleName type="politic_role">Ministro</roleName> : un novello prefetto è
+						<lb/>mandato in <name type="place" ref="#napoli">Napoli</name>, a salvaguardia dell’ amministrazione
+						<lb/>secondo il <roleName type="politic_role">deputato</roleName>, ad ostilità del <name type="organization" ref="#municipio">municipio</name> secondo il
+						<lb/><roleName type="politic_role">Sindaco</roleName>. La <name type="organization" ref="#questura">questura</name> muove nel frattempo un gran chiasso
+						<lb/>e spiega un grande apparato di forze per la <hi rend="quoted"><q type="emph">« energica »</q></hi>
+						<lb/>repressione della <name type="organization" ref="#camorra">camorra</name>, che pare un momento quasi
+						<lb/>affatto debellata ; ma il <roleName type="politic_role">magistrato</roleName> riduce a modesti limiti
+						<lb/>la impresa. Quale fu il motivo dello zelo insolito e passeg-
+						<lb break="no"/>gero ? Fu forse minaccia agli alti papaveri ? <hi rend="between_dashes">— Cade in
+						<lb/>tanto il <roleName type="politic_role">Ministro</roleName>, e dal successore di costui il <roleName type="politic_role">Sindaco</roleName>
+						<lb/>ottiene il traslocamento del <roleName type="politic_role">Prefetto</roleName>. Questi si dimette e
+						<lb/>già gli si preconizza l’ erede, quando al meglio scoppia
+						<lb/>come bomba la rivelazione dell’ oscuro matrimonio del
+						<lb/><name type="person" role="politician" ref="#crispi">Crispi</name>. Chi mai agevolò l’ opera del <roleName type="politic_role">Ministro dell’ Interno</roleName> ?
+						<lb/>Il <roleName type="politic_role">Sindaco</roleName>, affermano alcuni. E chi <choice><orig>denunziò</orig><reg resp="#alierr" cert="high">denunciò</reg></choice> il fatto e offrì
+						<lb/>i documenti ? L’ <roleName type="politic_role">ex-Ministro</roleName>, mormorano gli altri. —</hi> Qui
+						<lb/>avviene la lunga crisi ministeriale. Si sta oramai coll’ arco
+						<lb/>teso, finché una deliberazione del <name type="organization" ref="#consiglio_comunale">Consiglio Comunale</name> spezza
+						<lb/>questo d’ un colpo : un fondo segreto di trecentomila lire
+						<lb/>è votato per <hi rend="italic">raddrizzare la pubblica opinione</hi>, ossia per cor-
+						<lb break="no"/>rompere la stampa e sostenersi nell’ aspra lotta ! La deli-
+						<lb break="no"/>berazione, presa alla chetichella, è annullata dal <roleName type="politic_role">Prefetto</roleName>
+						<lb/>dimissionario. Per indiscretezza non si sa di chi, se ne co-
+						<lb break="no"/>nosce il testo che, pubblicato <choice><orig>su'</orig><reg resp="#alierr" cert="high">sui</reg></choice> giornali, fa scandalo e
+						<lb/>leva proteste da parte di più consiglieri di cui le firme ap-
+						<lb break="no"/>parivano falsamente nel processo verbale. Invitata l’ ammi-
+						<lb break="no"/>nistrazione a difendersi dall’ accusa di falsità in atto pub-
+						<lb break="no"/>blico, risponde approvando il già fatto, e ricorrendo al <name type="organization" ref="#consiglio">Con-
+						<lb break="no"/>siglio di Stato</name>, e inviando messi ed araldi a <name type="place" ref="#palazzo_braschi">palazzo Braschi</name>.
+						<lb/>Fortunatamente il nuovo <roleName type="politic_role">ministro</roleName> <name type="person" role="politician" ref="#zanardelli">Zanardelli</name> ha deciso per
+						<lb/>lo scioglimento del <name type="organization" ref="#consiglio">Consiglio</name>.
+					</ab>
+					
+					<ab facs="#par19_1Img" xml:id="par19_1Html">
+						<lb/>E adesso ? adesso andrà a <name type="place" ref="#napoli">Napoli</name> un <roleName type="politic_role">Commissario regio</roleName>
+						<lb/>per provvedere alla spedizione degli affari correnti fino
+						<lb/>alla elezione di un nuovo <name type="organization" ref="#consiglio">Consiglio</name>, alla scelta del quale
+						<lb/>parteciperanno tutti gli elementi malsani che hanno preci-
+						<lb break="no"/>pitato la città nel basso fondo in cui si trova. Il male
+						<lb/>sembra veramente senza rimedio, e disperato. Sopra chi far
+						<lb/>conto per sollevare <name type="place" ref="#napoli">Napoli</name> dalla degradazione <choice><orig>ov'è</orig><reg resp="#alierr" cert="high">dov'è</reg></choice> è caduta?
+					</ab>
+				</ab>
+					<!--colonna-->
+					<cb n="4"/>
+				<ab type="testo_colonna" n="4">
+					<ab facs="#par19_2Img" xml:id="par19_2Html">
+						<lb/>Sugli <roleName type="politic_role">elettori</roleName>? Li abbiamo visti fin adesso inerti o com-
+						<lb break="no"/>piacenti. Sopra provvedimenti legislativi ? Le leggi vigenti
+						<lb/>destinate ad impedire, almeno in parte, lo sperpero dei de-
+						<lb break="no"/>nari comunali non sono applicate. Per citare un esempio,
+						<lb/>la deliberazione del <name type="organization" ref="#consiglio_comunale">Consiglio Municipale</name> napoletano del
+						<lb/><date when="1876-11-07"> 7 novembre 1876</date> che poneva a disposizione del <roleName type="politic_role">Sindaco</roleName>
+						<lb/>fondi per incoraggiamento alle arti e scienze, per sussidii
+						<lb/>a letterati e patriotti poveri, era illegale in un <name type="organization" ref="#municipio">Comune</name>
+						<lb/>dove, mentre i centesimi addizionali all’imposta fondiaria
+						<lb/>avevano raggiunto il limite massimo fissato dalla legge,
+						<lb break="no"/>rimaneva ancora da provvedersi ad un <foreign><hi xml:lang="la" rend="italic">deficit</hi></foreign> annuo di
+						<lb/>più milioni. Pure non fu annullata. Ci volle lo scandalo del
+						<lb/>mandato ufficiale dato al <roleName type="politic_role">Sindaco</roleName> di organizzare la corru-
+						<lb break="no"/>zione della stampa cittadina, per risvegliare l’ autorità po-
+						<lb break="no"/>litica locale e richiamarla all’ adempimento del suo dovere.
+						<lb/>Ci volle il caso fortuito che il <roleName type="politic_role">Ministro dell’ interno</roleName> cadesse
+						<lb/>sotto l’imputazione di un atto che per lo meno rasentava
+						<lb/>il Codice penale, per impedire che il <name type="organization" ref="#governo_it">Governo del Regno
+						<lb/>d’Italia</name> non prendesse a difendere le disonestà del <name type="organization" ref="#municipio">Muni-
+						<lb break="no"/>cipio</name> contro ai tardi scrupoli della <name type="organization" ref="#prefettura">Prefettura</name>.
+					</ab>
+				
+					<ab facs="#par20Img" xml:id="par20Html"><lb/>Primo fra tutti gli uffici di un governo è quello di tu-
+						<lb break="no"/>telare e mantenere la moralità, cioè quelle regole di con-
+						<lb break="no"/>dotta senza le quali la società non può reggersi. Egli è
+						<lb/>doloroso che questo non sia in <name type="place" ref="#italia">Italia</name> un assioma banale.
+						<lb/>Ed è per ciò che manca il punto fisso dove appoggiare il
+						<lb/>piede per spazzar via quella enorme quantità d’immon-
+						<lb break="no"/>dezze che ammorba <name type="place" ref="#napoli">Napoli</name>. Egli è notorio che da più anni
+						<lb/>la <name type="organization" ref="#camorra">camorra</name> vi è un elemento importante della vita pubblica
+						<lb/>locale, interviene ed influisce in tutto : nelle elezioni, negli
+						<lb/>appalti, nell’ esecuzione dei regolamenti municipali. È noto
+						<lb break="no"/>rio che le ambizioni e le cupidigie di persone di condizione
+						<lb/>civile trovano il loro appoggio nella <name type="organization" ref="#camorra">camorra</name>; che questo
+						<lb/>appoggio naturalmente non è disinteressato. E l’autorità
+						<lb/>pubblica, sfogatasi con l’invio a domicilio coatto di qualche
+						<lb/>gregario, rispetta nell’ uno o nell’ altro dei colpevoli mag-
+						<lb break="no"/>giori l’influenza locale o l’influenza politica. Qual mara-
+						<lb break="no"/>viglia che tolleri dai medesimi illegalità semplicemente am-
+						<lb break="no"/>ministrative, nelle quali almeno il codice penale non ha
+						<lb/>che fare ? In ossequio alle libertà locali e al principio
+						<lb/>del decentramento, il <roleName type="politic_role">commissario regio</roleName> lascerà piena li
+						<lb break="no"/>bertà ad ognuno dei partiti municipali di cercare i suoi
+						<lb/>alleati nella schiuma della popolazione di ogni classe, di
+						<lb/>corrompere, intimidire, di promettere l’impunità ai delitti;
+						<lb/>e poi, si chiameranno gli <roleName type="politic_role">elettori amministrativi</roleName> alle lotte
+						<lb/>feconde della libertà. E questo accadrà nella migliore ipotesi ;
+						<lb/>in quella cioè che il <roleName type="politic_role">Commissario regio</roleName> non prenda partito
+						<lb/>per nessuno, e si conformi scrupolosamente alla legge.
+					</ab>
+					
+					<ab facs="#par21_1Img" xml:id="par21_1Html">
+						<lb/>Tale sarà l’efficacia del timido <name type="theme">tentativo che sta fa-
+						<lb break="no"/>cendo il <name type="organization" ref="#governo_it">Governo</name> per ripulire il <name type="place" ref="#napoli">Municipio di Napoli</name></name>. Nè
+						<lb/><choice><orig>potrebb'</orig><reg resp="#alierr" cert="high">potrebbe</reg></choice> essere altrimenti. Perchè, quando pure il <name type="organization" ref="#governo_it">Governo</name> ri-
+						<lb/>conoscesse finalmente il suo dovere di non transigere mai <choice><orig>colle</orig><reg resp="#andbltt" cert="high">con le</reg></choice>
+						<lb/>illegalità e le immoralità anche se commesse dalle rappre-
+						<lb break="no"/>sentanze locali, sarebbe impossibile rimediare in tre mesi
+						<lb/>agli effetti di una fiaccona che dura da anni. I <name type="organization" ref="#partito">partiti</name>
+						<lb/><hi rend="bracketed">(chiamiamoli così)</hi> municipali di <name type="place" ref="#napoli">Napoli</name> trovano nella cana-
+						<lb break="no"/>glia d’ogni ceto e qualità soldati <choice><orig>ed instrumenti</orig><reg resp="#andbltt" cert="high">e strumenti</reg></choice>ed istrumenti, perchè
+						<lb/>l’autorità politica e giudiziaria non ha approfittato di
+						<lb/>tutte le occasioni in cui qualcuno di quella canaglia ca-
+						<lb break="no"/>deva sotto la legge penale per applicarla, senza riguardo
+						<lb/>a protezioni, ad amicizie, a parentele, a posizione sociale,
+						<lb/>municipale o politica. Se l’autorità politica avesse annul-
+						<lb break="no"/>lato, e deferito al potere giudiziario nei casi opportuni
+						<lb/>tutti gli atti illegali delle autorità locali che fossero stati
+						<lb/>di sua competenza, sarebbe stato possibile che la gran
+						<lb/>massa degli <roleName type="politic_role">elettori</roleName>, la quale pure non ha interesse negli
+						<lb/>appalti e nelle spese improvvide, ec., pigliasse fiducia nel-
+						<lb break="no"/>l’ efficacia, nella realtà delle leggi, e adoperasse quelle san-
+					</ab>
+				</ab>
+				<!--altra pagina-->	
+					<pb n="3"/>
+					<cb n="5"/>
+					<fw type="header" n ="3">
+						<ptr target="#trafiletto287"></ptr>
+					</fw>
+				<ab type="testo_colonna" n="5_1">
+					<ab facs="#par21_2Img" xml:id="par21_2Html">
+						<lb break="no"/>zioni ch’ esse mettono a sua disposizione. E quando il corpo
+						<lb/>elettorale si fosse mostrato incapace di tanto, <hi rend="bracketed">(del che non
+						<lb/>mancano pur troppo gli esempi)</hi> rimarrebbe sempre la spe-
+						<lb break="no"/>ranza di poter conseguire un miglioramento con l’ accre-
+						<lb break="no"/>scere all’ autorità politica i mezzi di conoscere le illegalità
+						<lb/>e le irregolarità di talune amministrazioni locali e di re-
+						<lb break="no"/>primerle.
+					</ab>				
+					
+					<ab facs="#par22Img" xml:id="par22Html">
+						<lb/>Ad ogni modo, ora come ora, poco o nulla c’ è da sperare
+						<lb/>da un momentaneo risveglio della energia del <name type="organization" ref="#governo_it">Governo</name> a
+						<lb/>tutela dell’ ordine e della morale. Si voti o no la proposta di
+						<lb/>riforma alla legge comunale che sottrae l’amministrazione
+						<lb/>dei grossi <name type="organization" ref="#municipio">Comuni</name> al riscontro governativo, questo riscon-
+						<lb break="no"/>tro non potrà dopo tal legge essere minore di quel che, co-
+						<lb break="no"/>me regola, è adesso. In <name type="place" ref="#italia">Italia</name>, un <roleName type="politic_role">Sindaco</roleName> o un <roleName type="politic_role">Consigliere
+						<lb/>comunale deputato</roleName>, è autorità amministrativa più potente
+						<lb/>di un semplice impiegato, sia pure <roleName type="politic_role">prefetto</roleName>, e spesso po-
+						<lb break="no"/>tente quanto e più di un <roleName type="politic_role">Ministro dell’ interno</roleName>. Con uomini
+						<lb/>di tanta autorità, le leggi in un paese libero scendono a
+						<lb/>patti. Finché durerà siffatta anarchia, che già avemmo oc-
+						<lb break="no"/>casione di deplorare, <hi rend="sup"><ref target="#nota1">*</ref></hi> la nostra moralità amministrativa
+						<lb/>sarà all’altezza della nostra moralità politica, ed il far
+						<lb/>leggi, un innocente passatempo col quale i nostri deputati
+						<lb/>si riposeranno dalla fatica durata a sostenere nei <name type="organization" ref="#ministero">ministeri</name>
+						<lb/>e nei <name type="organization" ref="#ministero">tribunali</name> <choice><orig>gl'</orig><reg resp="#andbltt" cert="high">gli </reg></choice>interessi dei loro <roleName type="politic_role">elettori</roleName>.
+					</ab>
+				</ab>
+			</div>
+
+			<div xml:lang="it" type="trafiletto">
+				<bibl xml:id="trafiletto287">
+					<lb/><date when="1878-04-21">21 Aprile '78</date>.]
+					<title><name type="opere" ref="#rassegna">LA RASSEGNA SETTIMANALE</name></title>
+					<biblScope unit="page"><num type="cardinal" value="287">287</num></biblScope>
+				</bibl>
+			</div>
+			<!--nota *-->
+			<div n="bib" xml:lang="it" type="bibliography">
+				<ab type="testo_colonna" n="5_2">
+					<ab facs="#par_bib1Img" xml:id="par_bib1Html">
+						<lb/>
+							<bibl xml:id="nota1">
+								<hi rend="sup">*</hi> 
+								<choice><abbr type="biblio">V.</abbr><expan resp="#mbar" cert="medium"><ex>Veda</ex></expan></choice>
+								nel nostro 
+								<biblScope unit="Volume">
+									<name type="opere" ref="#rassegnav6">
+										<choice><abbr type="biblio">n.</abbr><expan resp="#mbar" cert="high">n<ex>umero</ex></expan></choice> 
+										6
+									</name>
+								</biblScope>, 
+								<biblScope unit="Page">
+									<choice><abbr type="biblio">pag.</abbr><expan resp="#mbar" cert="high">pag<ex>ina</ex></expan></choice> 
+									87
+								</biblScope>
+								, l’articolo intitolato: <name type="opere" ref="#rassegnav6_art">Dove andiamo ?</name>
+							</bibl>
+					</ab>
+				</ab>	
+			</div>
+			<!-- fine secondo articolo -->
+			
+			<!-- inizio terzo articolo -->
+			<div type="article" xml:lang="it" n="3">
+				<head n="3">
+					<lb/>GLI SCIOPERI NEL <name type="place" ref = "#biellese">BIELLESE.</name>
+				</head>
+				<ab type="testo_colonna" n="5_3">
+					<ab facs="#par23Img" xml:id="par23Html">
+						<lb/>Il conflitto tra il capitale e il lavoro continua nelle valli
+						<lb/>del <name type="place" ref="#biellese">Biellese</name>. E non si tratta di lieve dissidio ; ma acre, per-
+						<lb break="no"/>tinace. Nell’ animo dei <roleName type="job">fabbricanti</roleName> e degli <roleName type="job">operai</roleName> le ra-
+						<lb break="no"/>gioni del tornaconto sono esacerbate da quelle dell’ amor
+						<lb/>proprio di classe; e pochi ormai conservano la serenità. Nelle
+						<lb/>controversie di somigliante specie vi è qualcosa di spietato,
+						<lb/>come nei campi di battaglia ; e la stessa intrepidità, nel
+						<lb/>l’uno e nell’ altro caso, si compone anche di crudeltà.
+					</ab>
+					
+					<ab facs="#par24Img" xml:id="par24Html">
+						<lb/>Gli <roleName type="job">operai tessitori</roleName> del <name type="place" ref="#biellese">Biellese</name> trovano nelle condizioni
+						<lb/>loro peculiari l’incitamento a resistere. Molti di essi sono
+						<lb/><roleName type="job">piccoli proprietari</roleName>, e la fame non riesce a persuaderli al
+						<lb/>lavoro, perchè con qualche digiuno vivono anche senza
+						<lb/>tessere. Inoltre pare che alcuni aiuti vengano di fuori; e
+						<lb/>la <name type="organization" ref="#mutuo_soccorso">Società di mutuo soccorso</name>, più volte disciolta dal <name type="organization" ref="#governo_it">Go-
+						<lb break="no"/>verno</name>, rappresenta anche la solidarietà comune a vantag-
+						<lb break="no"/>gio degli <roleName type="politic_role">scioperanti</roleName>. E perchè gli <roleName type="job">operai</roleName> biellesi sono fini
+						<lb/>come i loro capi, hanno organizzato una disciplina severa,
+						<lb/>più solida, se fosse possibile, delle <foreign><hi xml:lang="en" rend="italic"><name type="organization" ref="#sindacato">Trades Unions</name></hi></foreign> inglesi.
+						<lb/><choice><orig>Laonde</orig><reg>Perciò</reg></choice>, <name type="theme">il <name type = "politc_org" ref="#governo_it">Governo</name> e i <roleName type="job">fabbricanti</roleName> sentono che gli operai
+						<lb/>si sono costituiti in una specie di <name type="organization" ref="#stato">Stato auton<damage agent="ink" group="1">om</damage>o</name></name> ; il quale
+						<lb/>dà ordini e disposizioni obbediti universalmente. E <choice><orig>la </orig><reg resp="#andbltt" cert="high">l'</reg></choice><name type="organization" ref="#industria">in-
+						<lb break="no"/>dustria della lana</name>, che per prosperare richiederebbe la mas-
+						<lb break="no"/>sima concordia tra il capitale e il lavoro, continuando invece
+						<lb/>la lotta, in parte si trasformerà e in parte deperirà. Il telaio
+						<lb/>a mano cederà il posto al telaio meccanico ; sparirà il <roleName type="job">tes-
+						<lb break="no"/>sitore</roleName> e lo sostituirà la giovane <roleName type="job">tessitrice</roleName>. Alcuni fabbri-
+						<lb break="no"/>canti trasporteranno altrove la loro <name type="organization" ref="#industria">industria</name>, o, com’ è già
+						<lb/>succeduto, chiuderanno il loro <name type="organization" ref="#opificio">opifìcio</name>. La guerra del ca-
+						<lb break="no"/>pitale col lavoro produce anch’essa la desolazione e la
+						<lb/>miseria.
+					</ab>
+					
+					<ab facs="#par25_1Img" xml:id="par25_1Html">
+						<lb/>Un problema gravissimo sarebbe quello di ricercare a
+						<lb/>cui spetti la responsabilità maggiore. Il torto è almeno di-
+						<lb break="no"/>stribuito per equa parte, ma ciò poco importa all’ <name type="organization" ref="#industria">industria</name>
+						<lb/>che ne soffre. I <roleName type="job">fabbricanti</roleName> ai primi indizi degli scioperi
+						<lb/>nel <date from="1863" to="1864">1863-64</date>, non si curarono della gravità del pericolo, nè
+						<lb/>la sospettarono. Se fossero stati meno positivi, sarebbero
+						<lb/>stati più accorti. Vi è una grande sapienza nella carità. Chi
+						<lb/>ha cura delle anime della povera gente, ne dirige anche le
+					</ab>
+				</ab>
+					<!--colonna-->
+					<cb n="6"/>
+				<ab type="testo_colonna" n="6">
+					<ab facs="#par25_2Img" xml:id="par25_2Html">
+						<lb/>braccia. Il difetto di mutui accordi e di mutue benevolenze
+						<lb/>ha generato con la solitudine l’ egoismo.
+					</ab>
+				
+					<ab facs="#par26Img" xml:id="par26Html"><lb/>Il solo <name type="person" role="politician" ref="#quintino">Quintino Sella</name>, aiutato da qualche altro, aveva
+						<lb/>cercato di provvedere, favorendo i sodalizi di mutuo soc-
+						<lb break="no"/>corso, promovendo la scuola professionale, spargendo le
+						<lb/>casse di risparmio ; ma pochi lo seguirono e non ebbe il
+						<lb/>compenso della gratitudine. E le due schiere si guardano
+						<lb/>con sospetto. Ciò che ha di singolare il recente <orgName>movimento
+						<lb/>biellese</orgName>, è che non fu iniziato da una disputa sui salari,
+						<lb/>ma sul regolamento disciplinare preparato dai <roleName type="job">fabbricanti</roleName>
+						<lb/>concordi. Il che suscitò i sospetti degli <roleName type="job">operai</roleName>, e offese
+						<lb/>il loro gelosissimo senso d’ indipendenza. <choice><orig>Imperocché</orig><reg resp="#andbltt" cert="medium">Difatti</reg></choice> in
+						<lb/>ciò più che nei dissidi sul caricamento del telaio si deve
+						<lb/>rintracciare la cagione apparente del male. Dicesi ad arte
+						<lb/>la <hi rend="italic">cagione</hi> apparente, perchè <name type="theme">l’ origine vera del conflitto è
+						<lb/><hi rend="italic">morale</hi> più che <hi rend="italic">economica</hi></name>.
+					</ab>
+					
+					<ab facs="#par27Img" xml:id="par27Html">
+						<lb/>Come si vincerà la prova?
+					</ab>
+					
+					<ab facs="#par28Img" xml:id="par28Html"><lb/>Una parola di affetto sarebbe qui forse più efficace di ogni
+						<lb/>legge economica. L’economia politica da sola è sterile di
+						<lb/>fronte a questi problemi, nei quali la virtù e i vizi dei cuori
+						<lb/>umani dominano i cervelli. Il dissidio fra <roleName type="job">operai</roleName> e <roleName type="job">fabbri-
+						<lb break="no"/>canti</roleName> si deve sopire anche con la bontà e con la virtù della
+						<lb/>rassegnazione. I soli aumenti di salario non bastano, per-
+						<lb break="no"/>chè i <choice><orig resp="#andbltt" cert="high">desiderii</orig><reg resp="#andbltt" cert="high">desideri</reg></choice> di benessere materiale sono illimitati, se
+						<lb/>non li frena il sentimento del <choice><orig>sacrifizio</orig><reg resp="#andbltt" cert="high">sacrificio</reg></choice> e del dovere. <choice><orig>V' è</orig><reg resp="#andbltt" cert="high">Vi è</reg></choice>
+						<lb/>chi spera nella efficacia della istituzione dei probiviri. A noi
+						<lb/>piace perchè rappresenta <choice><orig resp="#andbltt" cert="high">la </orig><reg resp="#andbltt" cert="high">l'</reg></choice>eguaglianza della giustizia,
+						<lb/>quantunque se ne esageri l’effetto. Le plebi oppresse, o
+						<lb/>che si credono tali, avrebbero nel <orgName type="organization" ref="#tribunale">tribunale elettivo</orgName> i loro
+						<lb/><roleName type="job">giudici</roleName> e ciò tempererebbe i loro sospetti.
+					</ab>
+					
+					<ab facs="#par29Img" xml:id="par29Html"><lb/>I sospetti dei poveri non si tolgono oggi che con la più
+						<lb/>manifesta prova del rispetto. I poveri hanno un’ anima om-
+						<lb break="no"/>brosa, malata. Essi soffrono della loro invidia e dell’ egoismo
+						<lb/>nostro, sopportando una doppia falange di peccati.
+					</ab>
+					
+					<ab facs="#par30Img" xml:id="par30Html"><lb/>Tale è la realtà delle cose, e senza un forte movimento
+						<lb/>morale, inspirato dall’ alto, non è lecito sperare che abbiano
+						<lb/>pace quelle industri e bellissime valli del <name type="place" ref="#biellese">Biellese.</name>
+					</ab>
+				</ab>
+			</div>
+			<!-- fine terzo articolo -->
+			<div xml:lang="it" type="trafiletto">
+				<bibl xml:id= "trafiletto302">
+					<lb/><biblScope unit="page"><num type="cardinal" value="302">302</num></biblScope>
+					<title><name type="opere" ref="#rassegna">LA RASSEGNA SETTIMANALE</name></title> [
+					<biblScope unit="Volume">Vol. <num type="ordinal" value="1">1°</num></biblScope>,
+					<biblScope unit="Issue">N° 16.</biblScope>
+				</bibl>
+			</div>
+			
+			<!-- inizio prima entrata bibliografica -->
+			<div type="biblio" xml:lang="it" n="1">
+				<pb n="4"/>
+				
+				<cb n="7"/>
+				<fw type="header" n="4">
+					<ptr target="#trafiletto302"></ptr>
+				</fw>
+				<head n="4">
+					<lb/>SCIENZE POLITICHE.
+				</head>
+				
+				<ab type="testo_colonna" n ="7">
+					<ab facs="#titlep1Img" xml:id="titlep1Html">
+						<lb/><hi rend="italic"><name type="opere" ref="#leggelettorale">La legge elettorale e la proporzionalità dei voti</name></hi>. - <name ref="#torino" type="place">Torino</name>, 
+						<lb/><name type="publishinghouse" ref="#baglione">Baglione</name>, <date when="1878">1878</date>
+					</ab>
+					
+					<ab facs="#par31Img" xml:id="par31Html"><lb/>Quest’ opuscolo di 16 pagine del signor <name type="person" role="author" ref="#pg"><abbr type="initial">P.</abbr> <abbr type="initial">G.</abbr></name> di <name ref="#torino" type="place">Torino</name>
+						<lb/>riprende a trattare <name type="theme">la questione della proporzionalità del
+						<lb/>suffragio politico</name>. Lo stile è buono, l’ esposizione semplice
+						<lb/>ed evidente. L’Autore comincia con dimostrare che la pre-
+						<lb break="no"/>sente legge elettorale non soddisfa alle esigenze di una
+						<lb/>giusta <choice><orig>repartizione</orig><reg resp="#andbltt" cert="high">ripartizione</reg></choice> del suffragio e che da questa deriva in 
+						<lb/>gran parte <name type="theme">la indifferenza e l’astensione degli <roleName type="politic_role">elettori</roleName></name>. Vor-
+						<lb break="no"/>rebbe quindi che si rimediasse a questo inconveniente col
+						<lb/>rendere proporzionale il voto e propone il sistema del quo-
+						<lb break="no"/>ziente applicato ad un collegio, che avrebbe ad eleggere
+						<lb/>dieci o quindici deputati.
+					</ab>
+					
+					<ab facs="#par32Img" xml:id="par32Html"><lb/>Dobbiamo rallegrarci senza dubbio che i giovani <hi rend="bracketed">(giac-
+						<lb break="no"/>ché noi vogliamo credere che l’ anonimo Autore sia ancora 
+						<lb/>giovane)</hi> si persuadano di quelle verità incontestabili, e
+						<lb/>sappiano così bene assimilarsele ed esporle. Ma quello che
+						<lb/>ci dispiace e ci meraviglia si è che egli abbia avuto biso-
+						<lb break="no"/>gno di conoscere la questione dagli articoli di <name type="person" role="writer" ref="#girardin">Girardin</name>
+						<lb/>nella <hi rend="italic"><name type ="opere" ref="#presse">Presse</name></hi> e da uno studio del signor <name type="person" role="scholar" ref="#vitet"><choice><sic resp="#andbltt" cert="high">Aubry Vitet</sic><corr resp="#andbltt" cert="high">Aubry-Vitet</corr></choice></name> nella
+						<lb/><foreign><hi xml:lang="fr" rend="italic"><name type="opere" ref="#revue">Revue des Deux Mondes</name></hi></foreign>. Noi non pretendiamo che egli
+						<lb/>avesse già avuto sott’occhio il secondo volume dell’ impor-
+						<lb break="no"/>tante trattato di Diritto costituzionale del <roleName type="job">professor</roleName> <name type="person" role="teacher" ref="#palma">Palma</name>,
+						<lb/>che in un apposito capitolo tratta per esteso tutta la que-
+						<lb break="no"/>stione. Ma al solito anch’egli ignora tutti i lavori italiani
+						<lb/>sull’ argomento, a incominciare dalla dissertazione di Lau-
+						<lb break="no"/>rea di un suo compaesano <name type="person" role="economist" ref="#ferraris">Carlo Ferraris</name>, ed ignora che
+						<lb/>abbia esistito in <name type = "state" ref="#italia">Italia</name> per qualche anno una operosa as-
+						<lb break="no"/>sociazione per lo studio applicato della rappresentanza
+						<lb/>proporzionale. Tale ignoranza dispiacevole per sé è poi il
+						<lb/>sintomo di un male più profondo, della lentezza cioè con
+						<lb/>cui si va compiendo il commercio intellettuale fra provin-
+						<lb break="no"/>cia e provincia.
+					</ab>
+				</ab>
+			</div>
+			<!-- fine prima entrata bibliografica -->
+			
+			<div xml:lang="it" type="trafiletto">
+				<bibl xml:id="trafiletto303">
+					<lb/><date when="1878-04-21">21 Aprile '78</date>.]
+					<title><name type="opere" ref="#rassegna">LA RASSEGNA SETTIMANALE</name></title>
+					<biblScope unit="page"><num type="cardinal" value="303">303</num></biblScope>
+				</bibl>
+			</div>
+			<!-- inizio seconda entrata bibliografica -->
+			<div type="biblio" xml:lang="it" n="2">
+				<pb n="5"/>
+				<cb n="8"/>
+				<fw type="header" n ="5">
+					<ptr target="#trafiletto303"></ptr>
+				</fw>
+				<head n = "5"> 
+					<lb/>MATEMATICA.
+				</head>
+
+				<ab type="testo_colonna" n="8">
+					<ab facs="#titlep2Img" xml:id="titlep2Html">
+						<lb/><choice><abbr type="title">Dott.</abbr><expan resp="#mbar" cert="high">Dott<ex>or</ex></expan></choice> <name type="person" role="scholar" ref="#biasi">Giovanni Biasi</name>. <hi rend="italic"><name type="opere" ref="#equalg">Il calcolo sulle incognite delle equa-
+						<lb break="no"/>zioni algebriche</name></hi>. Studi analitici. - <name type="place" ref="#verona">Verona</name>, <name type="publishinghouse" ref="#munster"><abbr type="title">H.</abbr><abbr type="title">F.</abbr> Mün-
+						<lb break="no"/>ster</name>, <date when="1876">1876</date>.
+					</ab>
+					<ab facs="#par33_1Img" xml:id="par33_1Html">
+						<lb/>Il titolo di questo libro e principalmente le parole con-
+						<lb break="no"/>tenute nel primo paragrafo dell’introduzione, fanno credere
+						<lb/>che l’ autore voglia esporre in esso qualche nuovo risultato 
+						<lb/><name type="theme">sulla questione della risoluzione algebrica delle equazioni</name>
+					</ab>
+				
+				</ab>
+				<!--colonna-->
+				<cb n="9"/>
+				<ab type="testo_colonna" n="9_1">
+					<ab facs="#par33_2Img" xml:id="par33_2Html">
+						<lb/><name type="theme">di grado superiore al quarto</name>. Una tale aspettazione viene
+						<lb/>bentosto delusa quando si vede che il problema preso a 
+						<lb/>trattare è quello di formare un’ equazione che abbia per
+						<lb/>radici certe determinate, funzioni delle radici di due equa-
+						<lb break="no"/>zioni date, problema di cui non sono qui considerati che i
+						<lb/>casi più semplici, sebbene, convien dirlo, in modo assai
+						<lb/>chiaro e completo. La connessione però del problema trat-
+						<lb break="no"/>tato dal <name type="person" role="scholar" ref="#biasi">Biasi</name> con quello della <hi rend="italic">risoluzione algebrica</hi>, nel si-
+						<lb break="no"/>gnificato che si dà dagli analisti a questa espressione, rie-
+						<lb break="no"/>sce manifesta se si osserva che una data equazione si potrà 
+						<lb/>risolvere algebricamente allorché si possa dimostrare che
+						<lb/>le sue radici sono funzioni algebriche di quelle di altre
+						<lb/>equazioni già algebricamente risolubili, per esempio di
+						<lb/>equazioni binomie. Sotto questo punto di vista crediamo
+						<lb/>pertanto che lo studio di questo breve lavoro possa essere 
+						<lb/>di qualche utilità a chi si occupa di tali ricerche, come
+						<lb/>quello che addita una nuova via da tentarsi in un campo
+						<lb/>in cui molto rimane ancora a scoprire per quanto si sia già
+						<lb/>fatto molto sin qui. <hi rend="bracketed">(Veggasi per esempio l’opera del <name type="person" role="scholar" ref="#jordan">Jor-
+						<lb break="no"/>dan</name> : <foreign><hi xml:lang="fr" rend="italic"><name type="opere" ref="#equalge">Traitè des substitutions et des équations algébriques</name></hi></foreign>)</hi>. Non
+						<lb/>dobbiamo tacere da ultimo che quanto costituisce uno dei
+						<lb/>maggiori pregi del lavoro del <name type="person" role="scholar" ref="#biasi">Biasi</name> è la notazione ivi adot-
+						<lb break="no"/>tata per rappresentare le funzioni simmetriche, la quale gli
+						<lb/>permette di semplificare d’assai la teoria di tali funzioni e
+						<lb/>di renderne molto più agevole l’ applicazione, il che è di-
+						<lb break="no"/>mostrato in modo particolare dalla notevole forma che l’au-
+						<lb break="no"/>tore ottiene per la trasformata di <name type="person" role="scholar" ref="#walther">Tschirnhaus</name>. Bisogna
+						<lb/>però osservare, circa questa notazione, come essa non dif-
+						<lb break="no"/>ferisca molto essenzialmente da quella usata già da <name type="person" role="scholar" ref="#cayley">Cayley</name>,
+						<lb/>benché per un altro scopo, nella rappresentazione delle stesse 
+						<lb/>funzioni, in una Memoria inserita nelle <foreign><hi xml:lang="en" rend="italic"><name type="opere" ref="#philosophicaltransactions">Philosophical Transac­
+						<lb break="no"/>tions</name></hi></foreign> del <date when="1856">1856</date>.
+					</ab>
+				</ab>
+			</div>
+			<!-- fine seconda entrata bibliografica -->
+			
+			<!-- ERRATA CORRIGE -->
+			<div type="errata_corrige" xml:lang="it" n="1">
+				<head n="6">ERRATA-CORRIGE.</head>
+				<ab type = "testo_colonna" n="9_2">
+					<ab facs="#ercor1Img" xml:id="ercor1Html">
+						<lb/><choice><abbr type="biblio">Pag.</abbr><expan resp="#mbar" cert="high">Pag<ex>ina</ex></expan></choice> 276, <choice><abbr type="biblio">col.</abbr><expan resp="#mbar" cert="high">col<ex>onna</ex></expan></choice> <num type="ordinal">2a</num>, <choice><abbr type="biblio">lin.</abbr><expan resp="#mbar" cert="high">lin<ex>ea</ex></expan></choice> <num type="ordinal">8</num>-<num type="ordinal">9a</num> dall’ultima. In una parte delle copie del- 
+						<lb break="no"/><name type="opere" ref="#rassegnav15">l’ ultimo numero</name>, invece di <hi rend="italic">Finalmente e soprattutto perchè ci si sente</hi> —
+						<lb/>leggasi <hi rend="italic">si sente.</hi>  
+					</ab>
+				</ab>
+			</div>
+			<!-- fine ERRATA CORRIGE -->
+			
+			<!-- inizio terza entrata bibliografica -->
+			<div type="biblio" xml:lang="it" n="3">
+				<head n="7">
+					<lb/>LE ALLEANZE DELL'<name type="place" ref="#francia">IMPERO FRANCESE</name> NEL <date when="1869">1869</date> E <date when="1870">1870</date>.
+				</head>
+				<ab type="testo_colonna" n="9_3">
+					<ab facs="#par34Img" xml:id="par34Html"><lb/>La <foreign><hi xml:lang="fr" rend="italic"><name type="opere" ref="#revue">Revue de France</name></hi></foreign> del <date when="--04-15">15 aprile</date> contiene sotto questo titolo un 
+						<lb/>articolo col quale si vogliono rettificare alcune asserzioni di quello pub-
+						<lb break="no"/>blicato col titolo istesso dal <roleName type="nobility_role" full="yes">principe</roleName> <name type="person" ref="#napoleone">Napoleone</name> nella <foreign><hi xml:lang="fr" rend="italic"><name type="opere" ref="#revue">Revue des deux 
+						<lb/>mondes</name></hi></foreign>, e del quale demmo un sunto nel numero 14 della <hi rend="italic"><name type="opere" ref="#rassegnav14">Rassegna</name></hi>. 
+						<lb/>In questo nuovo articolo scritto dal <roleName type="nobility_role" full="yes">Duca</roleName> <name type="person" ref="#gramont">di <choice><sic resp="#andbltt" cert="high">Grammont</sic><corr resp="#andbltt" cert="high">Gramont</corr></choice></name> sotto lo pseu-
+						<lb break="no"/>donimo <name type="person" ref="memor">Andreas Memor</name>, si riconosce <name type="theme">la verità di quanto è stato esposto
+						<lb/>dal <roleName type="nobility_role">Principe</roleName> circa ai negoziati del <date when="1869">1869</date></name>. Ma in quanto alle nuove trat-
+						<lb break="no"/>tative iniziate nella seconda settimana di luglio <date when="1870">1870</date>, l’Autore dell’arti-
+						<lb break="no"/>colo sostiene che furono riprese sulla base del ritorno alla Convenzione 
+						<lb/>di Settembre mediante il ritiro delle truppe francesi da <name type="place" ref="#roma">Roma</name>. Fu dopo
+						<lb/>l ’ intervento del <roleName type="military_role">general</roleName> <name type="person" ref="#turr">Türr</name> in quelle trattative che si manifestò l’idea 
+						<lb/>di domandare alla <name type="place" ref="#francia">Francia</name> qualche cosa di più, idea espressa nella let-
+						<lb break="no"/>tera del <roleName type="nobility_role">conte</roleName> <name type="person" ref="#beust">di Beust</name> del <date when="--07-20">20 luglio</date>.
+					</ab>
+					
+					<ab facs="#par35Img" xml:id="par35Html"><lb/>Il <date when="--07-25">25 luglio</date> il <name type="person" ref="#emanuele">Re d’ <name type="place" ref="#italia">Italia</name></name> domandava al <roleName type="politic_role">Ministro</roleName> di <name type="placee" ref="#francia">Francia</name> che
+						<lb/>l’ <name type="person" ref="#napoleoneIII">Imperatore</name> volesse fargli dare l’ assicurazione verbale che ove <name type="place" ref="#roma">Roma</name>
+						<lb/>fosse minacciata da bande rivoluzionarie, le truppe italiane potessero
+						<lb/>occupare gli <name type="place" ref="#statopontificio">Stati Pontifici</name> per vegliare alla sicurezza del <name type="person" role="pope" ref="#pio">Papa</name>. Ma il
+						<lb/><roleName type="politic_role">Ministro</roleName> avendo osservato che questo equivarrebbe all’ abbandono della
+						<lb/>Convenzione di Settembre, il <roleName type="nobility_role">Re</roleName> aveva riconosciuto il valore di queste
+						<lb/>obiezioni, e dichiarato che il rifiuto non comprometterebbe la conclu-
+						<lb break="no"/>sione dell’alleanza. Il <date when="---26">26</date> il <roleName type="politic_role">Re</roleName> telegrafava a <name type="place" ref="#parigi">Parigi</name> che da <name type="place" ref="#vienna">Vienna</name> gli 
+						<lb/>si proponeva un trattato preliminare di neutralità armata, il quale do-
+						<lb break="no"/>veva facilitare la triplice alleanza.
+					</ab>
+					
+					<ab facs="#par36_1Img" xml:id="par36_1Html">
+						<lb/>Intanto resultando dallo comunicazioni del <roleName type="military_role">general</roleName> <name type="person" ref="#turr">Türr</name> che la si-
+						<lb break="no"/>tuazione circa alla questione di <name type="place" ref="#roma">Roma</name> si era mutata, il <orgName>Governo fran-
+						<lb break="no"/>cese</orgName> volle mettere le cose in chiaro, ed in un colloquio che il <roleName type="politic_role">Ministro</roleName>
+						<lb/>di <name type="place" ref="#francia">Francia</name> ebbe li <date when="--07-28">28 luglio</date> col Re, si stabilì officialmente che il <hi rend="italic"><name type="organization" ref="#governo_it">Go-
+						<lb break="no"/>verno italiano</name> rinunziava a domandare alla <name type="place" ref="#francia">Francia</name> altra cosa che il ri-
+						<lb break="no"/>torno puro e semplice alla Convenzione di Settembre</hi> ; ed il <roleName type="politic_role">Ministro</roleName> <name type="person" ref="#venosta">Vi-
+						<lb break="no"/>sconti-Venosta</name> con telegramma del <date when="--07-29">29 luglio</date> dichiarava che l’ <name type="place" ref="#italia">Italia</name>
+						<lb/>eseguirebbe intieramente le clausole della Convenzione suddetta. Nello 
+						<lb/>stesso tempo da <name type="place" ref="#vienna">Vienna</name> il <roleName type="nobility_role">conte</roleName> <name type="person" ref="#beust">di Beust</name> rinuziava alla sua primitiva
+					</ab>
+				</ab>
+				<!--colonna e pagina-->
+				<pb n="6"/>
+				<fw type="header" n="6">
+					<ptr target="#trafiletto304"></ptr>
+				</fw>
+				<cb n="10"/>
+				<ab type="testo_colonna" n="10_1">
+					<ab facs="#par36_2Img" xml:id="par36_2Html">
+						<lb/>suggestione in favore dell’<name type="place" ref="#italia">Italia</name> pel regolamento della questione di <name type="place" ref="#roma">Roma</name>.
+						<lb/>Frattanto giunse la lettera del <roleName type="military_role">general</roleName> <name type="person" ref="#turr">Türr</name>, e l’<roleName type="politic_role">ambasciatore</roleName> francese
+						<lb/>fu incaricato d’ informarlo che la <name type="place" ref="#francia">Francia</name> era d’ accordo coll’<name type="place" ref="#austria">Austria</name>
+						<lb/>e l’ <name type="place" ref="#italia">Italia</name> per il mantenimento della Convenzione di Settembre.
+					</ab>
+					
+					<ab facs="#par37Img" xml:id="par37Html"><lb/>Si nega il telegramma citato nella <foreign><hi xml:lang="fr" rend="italic"><name type="opere" ref="#revue">Revue des deux Mondes</name></hi></foreign> come
+						<lb/>risposta al <roleName type="military_role">general</roleName> <name type="person" ref="#turr">Türr</name>, e si cita il vero di cui ecco le frasi più im-
+						<lb break="no"/>portanti : <hi rend="quoted"><q type="written">« Sembra che il <roleName type="military_role">Generale</roleName> abbia fatto a <name type="place" ref="#firenze">Firenze</name> più male che 
+						<lb/>bene, e temo faccia altrettanto a <name type="place" ref="#vienna">Vienna</name>. Ditegli che non abbandone-
+						<lb break="no"/>remo a nessun costo la Convenzione di Settembre ; che non ne parli
+						<lb/>nemmeno. »</q></hi>
+					</ab>
+						
+					<ab facs="#par38Img" xml:id="par38Html"><lb/>Lo scrittore vuol mettere in sodo che il <date when="--07-30">30 di luglio</date> lo tre potenze
+						<lb/>erano perfettamente d’ accordo, e che due giorni dopo il <roleName type="nobility_role">conte</roleName> <name type="person" role="politician" ref="#vimercati">Vimer-
+						<lb break="no"/>cati</name> tornò da <name type="place" ref="#vienna">Vienna</name> a <name type="place" ref="#parigi">Parigi</name> con un progetto di trattato in quattro
+						<lb/>articoli fra l’ <name type="place" ref="#italia">Italia</name> e l’<name type="place" ref="#austria">Austria</name> per una neutralità armata. Uno di quegli
+						<lb/>articoli stipulava l ’appoggio dell’<name type="place" ref="#austria">Austria</name> a favore dell’ <name type="place" ref="#ital">Italia</name> per rego-
+						<lb break="no"/>lare la questione di <name type="place" ref="#roma">Roma</name> in modo più vantaggioso che non offrisse la
+						<lb/>Convenzione di Settembre.
+					</ab>
+					
+					<ab facs="#par39Img" xml:id="par39Html"><lb/>L’ <roleName type="nobility_role">Imperatore</roleName> voleva che si fissasse una prossima data per il pas-
+						<lb break="no"/>saggio dalla neutralità armata al concorso effettivo, e che si radiasse 
+						<lb/>l’ articolo riguardante la revisione della Convenzione di Settembre. 
+					</ab>
+						
+					<ab facs="#par40Img" xml:id="par40Html"><lb/>La lettera dell’ <roleName type="nobility_role">Imperatore</roleName> al <roleName type="politic_role">Ministro degli esteri</roleName> in data del <date when="---03">3</date>, in 
+						<lb/>cui sarebbe detto : <hi rend="quoted"><q type="written">« malgrado gli sforzi di <name type="person" ref="#napoleone">Napoleone</name>, non cedo in quanto
+						<lb/>a <name type="place" ref="#roma">Roma</name> »</q></hi> è negata, ma l’Autore riconosce che ve ne fu una del <date when="---04">4</date> nella
+						<lb/>quale si diceva : <hi rend="quoted"><q type="written">« Ho visto <name type="person" ref="#vimercati">Vimercati</name> e non ho ceduto nulla di quello
+						<lb/>che era convenuto fra noi. »</q></hi> Dopo ciò, secondo l’Autore dell’ articolo,
+						<lb/>la stipulazione del patto riguardante <name type="place" ref="#roma">Roma</name>, era stata abbandonata 
+						<lb/>tanto a <name type="place" ref="#vienna">Vienna</name> che a <name type="place" ref="#firenze">Firenze</name> nel progetto di trattato ; e furon sol-
+						<lb break="no"/>tanto i disastri militari che frattanto sopraggiunsero, quelli che resero
+						<lb/>impossibili le alleanze divisate.
+					</ab>
+					<ab facs="#par41Img" xml:id="par41Html"><lb/>Circa alla missione del <roleName type="nobility">principe</roleName> <name type="person" role="royal" ref="#napoleone">Girolamo</name> del <date when="--08-20">20 agosto</date>, dichiara lo
+						<lb/>scrittore di non saper nè poter dir nulla, perchè essa rientra nei fatti 
+						<lb/>della guerra e non appartiene più alla politica.
+					</ab>
+				
+				</ab>
+			</div>
+			<div xml:lang="it" type="trafiletto">
+				<bibl xml:id="trafiletto304">
+					<lb/><biblScope unit="page"><num type="cardinal" value="304">304</num></biblScope>
+					<title><name type="opere" ref="#rassegna">LA RASSEGNA SETTIMANALE</name></title> [
+					<biblScope unit="Volume">Vol. <num type="ordinal" value="1">1°</num></biblScope>,
+					<biblScope unit="Issue">N° 16.</biblScope>
+				</bibl>
+			</div>
+			<!-- fine terza entrata bibliografica -->
+			
+			<!-- inizio notizie. -->
+			<div type="news" xml:lang="it" n="1">
+				<head n="8"><lb/>NOTIZIE.</head>
+				<ab type="testo_colonna" n="10_2">
+					<ab facs="#par42Img" xml:id="par42Html"><lb/>— <name type="theme">Si annunzia la prossima pubblicazione</name> in <name type="place" ref="#francia">Francia</name> di un libro di 
+						<lb/><name type ="person" ref="#ollivier">Emile Ollivier</name>, col titolo <hi rend="italic"><name type="opere" ref="#ilconciliodelvaticano">Il Concilio del Vaticano</name></hi>.
+					</ab>
+					<ab facs="#par43Img" xml:id="par43Html"><lb/>— Il <orgName>Congresso letterario internazionale</orgName> si riunirà a <name type = "place" ref="#parigi">Parigi</name> fra il <date when="1878-06-06">6</date> e 
+						<lb/>il <date when="1878-06-15">15 giugno</date>. <name type="theme">Si tratterà fra altre cose della proprietà letteraria e di
+						<lb/>un progetto di convenzione internazionale in proposito</name>. 
+					</ab>
+					<ab facs="#par44Img" xml:id="par44Html"><lb/>— Presso <name type="publishinghouse" ref="#hallberger">Hallberger</name> a <name type ="place" ref="#stoccarda">Stuttgart</name> è uscito il primo fascicolo di un’ope-
+						<lb break="no"/>ra dell’<name type ="person" ref="#ebers">Ebers</name> <name type="theme">sulla storia, i monumenti e i costumi degli Egiziani</name>. 
+					</ab>
+				</ab>
+				<!--colonna-->
+				<cb n="11"/>
+				<ab type="testo_colonna" n="11_1">
+					<ab facs="#par45Img" xml:id="par45Html"><lb/>— Il <name ref="#governo_ru" type="organization">Governo Russo</name> sta per fondare una colonia nella <name ref="#nuova_zembla" type="natural_place"><choice><orig>Nuova Zem-
+						<lb break="no"/>bla</orig><reg resp="#andbltt" cert="high">Novaja Zem-<lb/>lja</reg></choice></name>. Nello scorso autunno sei vascelli russi trasportarono in quelle isole
+						<lb/>i materiali necessari per costruire sei case, che saranno occupato da
+						<lb/>sei famiglie di Samoiedi. <name type="theme">Scopo della colonia è di mantenere una co-
+						<lb break="no"/>municazione commerciale continua con le foci dell’ <name type="natural_place" ref="#yenisei"><choice><orig>Yenisei</orig><reg resp="#andbltt" cert="high">Enisej</reg></choice></name> e dell’ <name type="natural_place" ref="#obi"><choice><orig>Obi</orig><reg resp="#andbltt" cert="high">Ob'</reg></choice></name>
+						<lb/>e di creare un luogo di deportazione pei condannati per delitti politici</name>.
+					</ab>
+					<ab facs="#par46Img" xml:id="par46Html"><lb/>— Negli scavi a <name type ="place" ref="#cancello">Cancello</name> presso <name ref="#napoli" type="place">Napoli</name> sono state scoperte delle
+						<lb/><foreign xml:lang="la"><q type="term">« pateræ »</q></foreign> di forme finora ignote. <name type="theme">In una di queste si trovano dei graf-
+						<lb break="no"/>fiti con dei caratteri sconosciuti</name>. Gli scavi sono sta ti sospesi per qual-
+						<lb break="no"/>che tempo dal <roleName type="nobility_role">conte</roleName> <name type="person" ref="#spinelli">Spinelli</name> perchè si era sparsa la voce che egli
+						<lb/>avesse scoperto un tesoro immenso d’oro e d’ argento.
+					</ab>
+				</ab>
+			</div>
+			<!-- fine notizie -->
+			
+			<!-- Inizio metadati scritti -->
+			<div xml:lang="it" type="infomagazine" n="1">
+				<ab type="testo_colonna" n="11_2">
+					<ab facs="#par47Img" xml:id="par47Html">
+						<lb/><name type ="person" ref ="#franchetti">Leopoldo Franchetti</name> <name type ="person" ref="#sonnino">Sidney Sonnino</name> - <roleName type="editorial_role">Proprietari Direttori</roleName>.
+						<lb/><name type ="person" ref="#gherardini">Angiolo Gherardini</name>, <roleName type="editorial_role">Gerente responsabile</roleName>.
+						<lb/><name type = "place" ref="#firenze">Firenze</name>, <date when="1878">1878</date> - <name ref ="#barbera" type="publishinghouse">Tipografia Barbera</name>.
+					</ab>
+				</ab>
+			</div>
+			<!-- Fine metadati scritti -->
+		</body>
+		<!--Nel back vanno tutti quegli elementi come tabelle/liste che vengono descritti e poi richiamati nel front. Id indica l'elenco dati
+		mentre nel body è contenuto il corrispettivo per effettuare il collegamento. -->
+		<back>
+			<div>
+				<!-- inizio persone -->
+				<listPerson>
+				<person xml:id="mancini">
+					<persName>
+						<roleName type="politic_role" full="yes">Ministro</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Pasquale_Stanislao_Mancini"/>
+						<forename type="first">Pasquale</forename>
+						<forename type="middle">Stanislao</forename>
+						<surname>Mancini</surname>
+					</persName>
+					<birth>
+						<date when="1817-03-17">17/03/1817</date>
+					</birth>
+					<death>
+						<date when="1888-12-26">26/12/1888</date>
+					</death>
+				</person>
+				<person xml:id="musolino">
+					<persName>
+						<roleName type="politic_role" full="yes">Onorevole</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Benedetto_Musolino"/>
+						<forename type="first">Benedetto</forename>
+						<surname>Musolino</surname>
+					</persName>
+					<birth>
+						<date when="1809-02-08">08/02/1809</date>
+					</birth>
+					<death>
+						<date when="1885-11-15">15/11/1885</date>
+					</death>
+				</person>
+				<person xml:id="depretis">
+					<persName>
+						<roleName type="politic_role" full="yes">Ministro</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Agostino_Depretis"/>
+						<forename type="first">Agostino</forename>
+						<surname>Depretis</surname>
+					</persName>
+					<birth>
+						<date when="1813-01-31">31/01/1813</date>
+					</birth>
+					<death>
+						<date when="1887-07-29">29/07/1887</date>
+					</death>
+				</person>
+				<person xml:id="cairoli">
+					<persName>
+						<roleName type="politic_role" full="yes">Onorevole</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Benedetto_Cairoli"/>
+						<forename type="first">Benedetto</forename>
+						<surname>Cairoli</surname>
+					</persName>
+					<birth>
+						<date when="1825-01-28">28/01/1825</date>
+					</birth>
+					<death>
+						<date when="1889-08-08">08/08/1889</date>
+					</death>
+				</person>
+				<person xml:id="poetamugello">
+					<persName>
+						<roleName type="poet" full="yes">Poeta</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Filippo_Pananti"/>
+						<forename type="first">Filippo</forename>
+						<surname>Pananti</surname>
+					</persName>
+					<birth>
+						<date when="1766-03-20">20/03/1766</date>
+					</birth>
+					<death>
+						<date when="1837-09-14">14/09/1837</date>
+					</death>
+				</person>
+				<person xml:id="crispi">
+					<persName>
+						<roleName type="politic_role" full="yes">Ministro</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Francesco_Crispi"/>
+						<forename type="first">Francesco</forename>
+						<surname>Crispi</surname>
+					</persName>
+					<birth>
+						<date when="1818-10-04">04/10/1818</date>
+					</birth>
+					<death>
+						<date when="1901-08-11">11/08/1901</date>
+					</death>
+				</person>
+				<person xml:id="quintino">
+					<persName>
+						<roleName type="politic_role" full="yes">Ministro</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Quintino_Sella"/>
+						<forename type="first">Quintino</forename>
+						<surname>Sella</surname>
+					</persName>
+					<birth>
+						<date when="1827-07-07">07/07/1827</date>
+					</birth>
+					<death>
+						<date when="1884-03-14">14/03/1884</date>
+					</death>
+				</person>
+				<person xml:id="zanardelli">
+					<persName>
+						<roleName type="politic_role" full="yes">Ministro</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Giuseppe_Zanardelli"/>
+						<forename type="first">Giuseppe</forename>
+						<surname>Zanardelli</surname>
+					</persName>
+					<birth>
+						<date when="1826-10-26">26/10/1826</date>
+					</birth>
+					<death>
+						<date when="1903-12-26">26/12/1903</date>
+					</death>
+				</person>
+				<person xml:id="ollivier">
+					<persName>
+						<roleName type="writer" full="yes">Scrittore</roleName>
+						<ref target="https://it.wikipedia.org/wiki/%C3%89mile_Ollivier"/>
+						<forename type="first">Émile </forename>
+						<surname>Ollivier</surname>
+					</persName>
+					<birth>
+						<date when="1825-07-02">02/07/1825</date>
+					</birth>
+					<death>
+						<date when="1913-08-20">20/03/1913</date>
+					</death>
+				</person>
+				<person xml:id="ebers">
+					<persName>
+						<roleName type="scholar" full="yes">Egittologo</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Georg_Ebers"/>
+						<forename type="first">Georg </forename>
+						<surname>Ebers</surname>
+					</persName>
+					<birth>
+						<date when="1837-03-01">01/03/1837</date>
+					</birth>
+					<death>
+						<date when="1898-08-07">07/08/1898</date>
+					</death>
+				</person>
+				<person xml:id="spinelli">
+					<persName>
+						<roleName type="politic_role" full="yes">Senatore</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Francesco_Spinelli_(politico_1820)"/>
+						<forename type="first">Francesco</forename>
+						<surname>Spinelli</surname>
+					</persName>
+					<birth>
+						<date when="1820-07-19">19/07/1820</date>
+					</birth>
+					<death>
+						<date when="1897-06-08">08/06/1897</date>
+					</death>
+				</person>
+				<person xml:id="vitet">
+					<persName>
+						<roleName type="scholar" full="yes">Storico</roleName>
+						<ref target="https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Aubry-Vitet"/>
+						<forename type="first">Eugène</forename>
+						<surname type="linked">Aubry-Vitet</surname>
+					</persName>
+					<birth>
+						<date when="1845-12-20">20/12/1845</date>
+					</birth>
+					<death>
+						<date when="1930-05-30">30/05/1930</date>
+					</death>
+				</person>
+
+				<person xml:id="girardin">
+					<persName>
+						<roleName type="writer" full="yes">Scrittore</roleName>
+						<ref target="https://it.wikipedia.org/wiki/%C3%89mile_de_Girardin"/>
+						<forename type="first">Émile</forename>
+						<surname type="alias">de Girardin</surname>
+						<surname>Delamothet</surname>
+					</persName>
+					<birth>
+						<date when="1802-06-22">22/06/1845</date>
+					</birth>
+					<death>
+						<date when="1881-04-27">27/04/1881</date>
+					</death>
+				</person>
+
+				<person xml:id="palma">
+					<persName>
+						<roleName type="scholar" full="yes">Professore</roleName>
+						<ref target="https://www.treccani.it/enciclopedia/luigi-palma_(Dizionario-Biografico)/"/>
+						<forename type="first">Luigi</forename>
+						<surname>Palma</surname>
+					</persName>
+					<birth>
+						<date when="1837-07-19">19/07/1837</date>
+					</birth>
+					<death>
+						<date when="1899-01-04">04/01/1899</date>
+					</death>
+				</person>
+				<person xml:id="ferraris">
+					<persName>
+						<roleName type="scholar" full="yes">Economista</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Carlo_Ferraris"/>
+						<forename type="first">Carlo</forename>
+						<surname>Ferraris</surname>
+					</persName>
+					<birth>
+						<date when="1850-08-15">15/08/1850</date>
+					</birth>
+					<death>
+						<date when="1924-10-09">09/10/1924</date>
+					</death>
+				</person>
+				
+				<person xml:id="biasi">
+					<persName>
+						<roleName type="matematician" full="yes">Matematico</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Pagina_principale"/> 
+						<forename type="first">Biasi</forename>
+						<surname>Giovanni</surname>
+					</persName>
+					<birth>
+						<date when="????-??-??">Nomen nescio</date>
+					</birth>
+					<death>
+						<date when="????-??-??">Nomen nescio</date>
+					</death>
+				</person>
+
+				<person xml:id="pg">
+					<persName>
+						<roleName type="author" full="yes">Autore</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Template:Sezione_vuota"/> 
+						<forename type="first_alias">P.(sconosciuto)</forename>
+						<surname type="alias">G.(sconosciuto)</surname>
+					</persName>
+					<birth>
+						<date when="????-??-??">Nomen nescio</date>
+					</birth>
+					<death>
+						<date when="????-??-??">Nomen nescio</date>
+					</death>
+				</person> 
+
+				<person xml:id="jordan">
+					<persName>
+						<roleName type="mathematician" full="yes">Matematico</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Camille_Jordan"/>
+						<forename type="first">Camille </forename>
+						<surname>Jordan</surname>
+					</persName>
+					<birth>
+						<date when="1838-01-05">05/01/1838</date>
+					</birth>
+					<death>
+						<date when="1922-01-22">22/01/1922</date>
+					</death>
+				</person>
+				<person xml:id="walther">
+					<persName>
+						<roleName type="mathematician" full="yes">Matematico</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Ehrenfried_Walther_von_Tschirnhaus"/>
+						<forename type="first">Ehrenfried </forename>
+						<forename type="second">Walther </forename>
+						<surname>von Tschirnhaus</surname>
+					</persName>
+					<birth>
+						<date when="1651-04-10">10/04/1651</date>
+					</birth>
+					<death>
+						<date when="1708-10-11">11/10/1708</date>
+					</death>
+				</person>
+					<person xml:id="cayley">
+					<persName>
+						<roleName type="mathematician" full="yes">Matematico</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Arthur_Cayley"/>
+						<forename type="first">Arthur </forename>
+						<surname>Cayley</surname>
+					</persName>
+					<birth>
+						<date when="1821-08-16">16/08/1821</date>
+					</birth>
+					<death>
+						<date when="1891-03-17">17/03/1891</date>
+					</death>
+				</person>
+					<person xml:id="napoleone">
+					<persName>
+						<roleName type="royal" full="yes">Principe</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Napoleone_Giuseppe_Carlo_Paolo_Bonaparte"/>
+						<forename type="first">Napoleone </forename>
+						<forename type="second">Giuseppe </forename>
+						<forename type="first">Carlo </forename>
+						<forename type="first">Paolo </forename>
+						<surname>Bonaparte</surname>
+					</persName>
+					<birth>
+						<date when="1822-09-09">09/09/1822</date>
+					</birth>
+					<death>
+						<date when="1895-01-26">26/01/1895</date>
+					</death>
+				</person>
+					<person xml:id="gramont">
+					<persName>
+						<roleName type="duke" full="yes">duca</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Ag%C3%A9nor_de_Gramont_(1819-1880)"/>
+						<forename type="first">Agénor </forename>
+						<surname>de Gramont</surname>
+					</persName>
+					<birth>
+						<date when="1819-08-14">14/08/1819</date>
+					</birth>
+					<death>
+						<date when="1880-01-17">17/01/1880</date>
+					</death>
+				</person>
+				<person xml:id="turr">
+					<persName>
+						<roleName type="political" full="yes">Politico</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Stefano_Turr"/>
+						<forename type="first">Stefano </forename>
+						<surname>Turr</surname>
+					</persName>
+					<birth>
+						<date when="1825-08-11">11/08/1825</date>
+					</birth>
+					<death>
+						<date when="1908-05-03">03/05/1908</date>
+					</death>
+				</person>
+				<person xml:id="beust">
+					<persName>
+						<roleName type="political" full="yes">Politico</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Friedrich_Ferdinand_von_Beust"/>
+						<forename type="first">Friedrich </forename>
+						<forename type="second">Ferdinand </forename>
+						<surname>von Beust</surname>
+					</persName>
+					<birth>
+						<date when="1809-01-13">13/01/1809</date>
+					</birth>
+					<death>
+						<date when="1886-10-24">24/10/1886</date>
+					</death>
+				</person>
+				<person xml:id="emanuele">
+					<persName>
+						<roleName type="royal" full="yes">Re</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Vittorio_Emanuele_II_di_Savoia"/>
+						<forename type="first">Vittorio </forename>
+						<forename type="second">Emanuele </forename>
+						<forename type="third">Maria </forename>
+						<forename type="fourth">Alberto </forename>
+						<forename type="fifth">Eugenio </forename>
+						<forename type="sixth">Ferdinando </forename>
+						<forename type="seventh">Tommaso </forename>
+						<surname>Savoia</surname>
+					</persName>
+					<birth>
+						<date when="1820-03-14">14/03/1820</date>
+					</birth>
+					<death>
+						<date when="1878-01-09">09/01/1878</date>
+					</death>
+				</person>
+				<person xml:id="napoleoneIII">
+					<persName>
+						<roleName type="royal" full="yes">Imperatore</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Napoleone_III_di_Francia"/>
+						<forename type="first">Carlo </forename>
+						<forename type="second">Luigi </forename>
+						<forename type="third">Napoleone</forename>
+						<surname>Bonaparte</surname>
+					</persName>
+					<birth>
+						<date when="1808-04-20">20/04/1808</date>
+					</birth>
+					<death>
+						<date when="1873-01-09">09/01/1873</date>
+					</death>
+				</person>
+				<person xml:id="pio">
+					<persName>
+						<roleName type="religious_role" full="yes">Papa</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Papa_Pio_IX"/>
+						<forename type="first">Giovanni</forename>
+						<forename type="second">Maria </forename>
+						<forename type="third">Battista </forename>
+						<forename type="forth">Pietro </forename>
+						<forename type="fifth">Pellegrino </forename>
+						<forename type="sixth">Isidoro </forename>
+						<surname type="linked">Mastai-Ferretti</surname>
+					</persName>
+					<birth>
+						<date when="1792-05-13">13/05/1792</date>
+					</birth>
+					<death>
+						<date when="1878-02-07">07/02/1878</date>
+					</death>
+				</person>
+				<person xml:id="venosta">
+					<persName>
+						<roleName type="politic_role" full="yes">Ministro</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Emilio_Visconti_Venosta"/>
+						<forename type="first">Emilio</forename>
+						<surname type="linked">Visconti-Venosta</surname>
+					</persName>
+					<birth>
+						<date when="1829-01-22">22/01/1829</date>
+					</birth>
+					<death>
+						<date when="1914-11-28">28/11/1914</date>
+					</death>
+				</person>
+				<person xml:id="vimercati">
+					<persName>
+						<roleName type="politic_role" full="yes">Senatore</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Ottaviano_Vimercati"/>
+						<forename type="first">Ottaviano</forename>
+						<surname>Vimercati</surname>
+					</persName>
+					<birth>
+						<date when="1815-03-26">26/03/1815</date>
+					</birth>
+					<death>
+						<date when="1879-07-25">25/07/1879</date>
+					</death>
+				</person>
+				<person xml:id="memor">
+					<persName>
+						<roleName type="politic_role" full="yes">Scrittore</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Template:Sezione_vuota"/>
+						<forename type="first_alias">Andreas(alias)</forename>
+						<surname type="alias">Memor(alias)</surname>
+					</persName>
+					<birth>
+						<date when="????-??-??">Nomen nescio</date>
+					</birth>
+					<death>
+						<date when="????-??-??">Nomen nescio</date>
+					</death>
+				</person>
+				<person xml:id="sonnino">
+					<persName>
+						<roleName type="editorial_role" full="yes">Proprietario direttore</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Sidney_Sonnino"/>
+						<forename type="first">Sidney</forename>
+						<surname>Sonnino</surname>
+					</persName>
+					<birth>
+						<date when="1847-03-11">11/03/1847</date>
+					</birth>
+					<death>
+						<date when="1922-11-23">23/11/1922</date>
+					</death>
+				</person>
+				<person xml:id="franchetti">
+					<persName>
+						<roleName type="editorial_role" full="yes">Proprietario direttore</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Leopoldo_Franchetti"/>
+						<forename type="first">Leopoldo</forename>
+						<surname>Franchetti</surname>
+					</persName>
+					<birth>
+						<date when="1847-05-31">31/05/1847</date>
+					</birth>
+					<death>
+						<date when="1917-11-04">04/11/1917</date>
+					</death>
+				</person>
+				<person xml:id="gherardini">
+					<persName>
+						<roleName type="editorial_role" full="yes">Gerente responsabile</roleName>
+						<ref target="https://it.wikipedia.org/wiki/Template:Sezione_vuota"/>
+						<forename type="first">Angiolo</forename>
+						<surname>Gherardini</surname>
+					</persName>
+					<birth>
+						<date when="????-??-??">Nomen nescio</date>
+					</birth>
+					<death>
+						<date when="????-??-??">Nomen nescio</date>
+					</death>
+				</person>
+				</listPerson>
+				
+				<listOrg>
+					<!-- inizio organizzazioni -->
+					<org xml:id="questura">
+                        <orgName>
+                            <name>Questura</name>
+                            <ref target="https://it.wikipedia.org/wiki/Questura"/>
+                        </orgName>
+                        <state type="state_org"></state>
+                    </org>
+					<org xml:id="prefettura">
+                        <orgName>
+                            <name>Prefettura</name>
+                            <ref target="https://it.wikipedia.org/wiki/Prefettura_(Italia)"/>
+                        </orgName>
+                        <state type="state_org"></state>
+                    </org>
+					<org xml:id="commissione">
+                        <orgName>
+                            <name>Commissione</name>
+                            <ref target="https://it.wikipedia.org/wiki/Organo_collegiale"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="parlamento">
+                        <orgName>
+                            <name>Parlamento del Regno d'Italia</name>
+                            <ref target="https://it.wikipedia.org/wiki/Parlamento_del_Regno_d%27Italia"/>
+                        </orgName>
+                        <state type="organization" from="1861" to="1946"></state>
+                    </org>
+					<org xml:id="camera">
+                        <orgName>
+                            <name>Camera dei deputati del Regno d'Italia</name>
+                            <ref target="https://it.wikipedia.org/wiki/Camera_dei_deputati_del_Regno_d%27Italia"/>
+                        </orgName>
+                        <state type="organization" from="1861" to="1939"></state>
+                    </org>
+					<org xml:id="stato">
+                        <orgName>
+                            <name>Stato</name>
+                            <ref target="https://it.wikipedia.org/wiki/Stato"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="ministerodepretis">
+                        <orgName>
+                            <name>Governo Depretis II</name>
+                            <ref target="https://it.wikipedia.org/wiki/Governo_Depretis_II"/>
+                        </orgName>
+                        <state type="organization" from="1877-12-26" to="1878-03-24"></state>
+                    </org>
+					<org xml:id="governo">
+                        <orgName>
+                            <name>Governo di uno stato</name>
+                            <ref target="https://it.wikipedia.org/wiki/Governo"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="governo_it">
+                        <orgName>
+                            <name>Governo del Regno d'Italia</name>
+                            <ref target="https://it.wikipedia.org/wiki/Regno_d%27Italia_(1861-1946)"/>
+                        </orgName>
+                        <state type="organization" from="1861" to="1946"></state>
+                    </org>
+					<org xml:id="banca">
+                        <orgName>
+                            <name>banca</name>
+                            <ref target="https://it.wikipedia.org/wiki/Banca"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="ministero">
+                        <orgName>
+                            <name>Ministero Statale</name>
+                            <ref target="https://it.wikipedia.org/wiki/Ministero_statale"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="gabinetto">
+                        <orgName>
+                            <name>Gabinetto</name>
+                            <ref target="https://it.wikipedia.org/wiki/Gabinetto_(ufficio)"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="commissionebilancio">
+                        <orgName>
+                            <name>Commissione Bilancio del Senato della Repubblica</name>
+                            <ref target="https://it.wikipedia.org/wiki/Commissione_Bilancio_del_Senato_della_Repubblica"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="sottocommissione">
+                        <orgName>
+                            <name>Sottocommissione Bilancio del Senato della Repubblica</name>
+                            <ref target="https://it.wikipedia.org/wiki/Commissione_Bilancio_del_Senato_della_Repubblica"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="consiglio_comunale">
+                        <orgName>
+                            <name>Consiglio Comunale</name>
+                            <ref target="https://it.wikipedia.org/wiki/Consiglio_comunale_(ordinamento_italiano)"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="municipio">
+                        <orgName>
+                            <name>Municipio</name>
+                            <ref target="https://it.wikipedia.org/wiki/Comune"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="camorra">
+                        <orgName>
+                            <name>Camorra</name>
+                            <ref target="https://it.wikipedia.org/wiki/Camorra"/>
+                        </orgName>
+                        <state type="criminal_org"></state>
+                    </org>
+					<org xml:id="consiglio">
+                        <orgName>
+                            <name>Consiglio di Stato</name>
+                            <ref target="https://it.wikipedia.org/wiki/Consiglio_di_Stato"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					<org xml:id="partito">
+                        <orgName>
+                            <name>Partito Politico</name>
+                            <ref target="https://it.wikipedia.org/wiki/Partito_politico"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					 
+					<org xml:id="mutuo_soccorso">
+                        <orgName>
+                            <name>Società di mutuo soccorso</name>
+                            <ref target="https://it.wikipedia.org/wiki/Societ%C3%A0_di_mutuo_soccorso"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					
+					
+					<org xml:id="sindacato"> <!--o trade unions??-->
+                        <orgName>
+                            <name>Trade Unions</name>
+                            <ref target="https://it.wikipedia.org/wiki/Sindacato"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					
+					<org xml:id="industria">
+                        <orgName>
+                            <name>Industria</name>
+                            <ref target="https://it.wikipedia.org/wiki/Industria"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					
+					<org xml:id="opificio">
+                        <orgName>
+                            <name>Opificio</name>
+                            <ref target="https://it.wikipedia.org/wiki/Opificio"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+
+					<org xml:id="tribunale">
+                        <orgName>
+                            <name>Tribunale Ordinario</name>
+                            <ref target="https://it.wikipedia.org/wiki/Tribunale_ordinario"/>
+                        </orgName>
+                        <state type="organization"></state>
+                    </org>
+					
+					<org xml:id="hallberger">
+                        <orgName type = "publishinghouse">
+                            <name>Hallberger</name>
+                            <ref target="https://de.wikipedia.org/wiki/Eduard_Hallberger"/>
+                        </orgName>
+                        <state from="1848" to="1881"></state>
+                    </org>
+
+					<org xml:id="barbera">
+                        <orgName type = "publishinghouse">
+                            <name>Barbèra</name>
+                            <ref target="https://it.wikipedia.org/wiki/Casa_Editrice_Barb%C3%A8ra"/>
+                        </orgName>
+                        <state from="1860"></state>
+                    </org>
+					
+					<org xml:id="governo_ru">
+                        <orgName>
+                            <name>Governo Russo</name>
+                            <ref target="https://it.wikipedia.org/wiki/Impero_russo"/>
+                        </orgName>
+                        <state type="organization" from="1721" to="1917"></state>
+                    </org>
+					<org xml:id="munster">
+                        <orgName>
+                            <name>H.F. Munster</name>
+                            <ref target="https://www.biblio.units.it/SebinaOpac/resource/hauptkatalog-der-leihbibliothek-von-h-f-munster/TSA01688462"/>
+                        </orgName>
+                        <state type="publishing_house"></state>
+                    </org>
+
+					<org xml:id="baglione">
+                        <orgName>
+                            <name>Baglione</name>
+                            <ref target="https://it.wikipedia.org/wiki/Template:Sezione_vuota"/>
+                        </orgName>
+                        <state type="publishing_house"></state>
+                    </org>
+					<!-- fine organizzazioni -->
+				</listOrg>
+				
+				<listPlace>
+					<!-- inizio luoghi -->
+					<place xml:id = "italia">
+						<placeName>
+							<country type="state">Italia</country>
+                            <ref target="https://it.wikipedia.org/wiki/Italia"/>
+						</placeName>
+						<location>
+                            <bloc>Europa</bloc>
+						</location>
+					</place>
+					
+					<place xml:id= "palazzo_braschi">
+						<placeName type="building">
+							Palazzo Braschi
+                        	<ref target="https://it.wikipedia.org/wiki/Palazzo_Braschi"/>
+						</placeName>
+						<location>
+							<settlement>Roma</settlement>
+							<region>Lazio</region>
+							<country>Italia</country>
+						</location>
+					</place>
+
+					<place xml:id = "sicilia">
+						<placeName>
+								<region type="area">Sicilia</region>
+                            <ref target="https://it.wikipedia.org/wiki/Sicilia"/>
+						</placeName>
+						<location>
+							<country>Italia</country>
+						</location>
+					</place>
+					
+					<place xml:id= "firenze"> 
+						<placeName>
+							<settlement type="city">Firenze</settlement>
+                            <ref target="https://it.wikipedia.org/wiki/Firenze"/>
+						</placeName>
+						<location>
+							<region>Toscana</region>
+							<country>Italia</country>
+						</location>
+					</place>
+					
+					<place xml:id= "mugello"> 
+						<placeName>
+							<district type="area">Mugello</district>
+                            <ref target="https://it.wikipedia.org/wiki/Mugello"/>
+						</placeName>
+						<location>
+							<region>Toscana</region>
+							<country>Italia</country>
+						</location>
+					</place>
+					
+					<place xml:id= "napoli"> 
+						<placeName>
+							<settlement type="city">Napoli</settlement>
+                            <ref target="https://it.wikipedia.org/wiki/Napoli"/>
+						</placeName>
+						<location>
+							<region>Campania</region>
+							<country>Italia</country>
+						</location>
+					</place>
+					
+					<place xml:id= "san_carlo_teatro">
+						<placeName type="building">
+							San Carlo
+                        	<ref target="https://it.wikipedia.org/wiki/Teatro_di_San_Carlo"/>
+						</placeName>
+						<location>
+							<settlement>Napoli</settlement>
+							<region>Campania</region>
+							<country>Italia</country>
+						</location>
+					</place>
+					
+					<place xml:id= "biellese">  
+						<placeName>
+							<district type="area">Biellese</district>
+                        	<ref target="https://it.wikipedia.org/wiki/Biella"/>
+						</placeName>
+						<location>
+							<region>Piemonte</region>
+							<country>Italia</country>
+						</location>
+					</place>
+					
+					<place xml:id = "francia">
+						<placeName>
+							<country type="state">Francia</country>
+                        	<ref target="https://it.wikipedia.org/wiki/Francia"/>
+						</placeName>
+						<location>
+                            <bloc>Europa</bloc>
+						</location>
+					</place>
+
+					<place xml:id = "vaticano">
+						<placeName>
+							<country type="state">Città del Vaticano</country>
+                        	<ref target="https://it.wikipedia.org/wiki/Citt%C3%A0_del_Vaticano"/>
+						</placeName>
+						<location>
+                            <bloc>Europa</bloc>
+						</location>
+					</place>
+					
+					<place xml:id = "statopontificio">
+						<placeName>
+							<country type="state">Stato Pontificio</country>
+                        	<ref target="https://it.wikipedia.org/wiki/Stato_Pontificio"/>
+						</placeName>
+						<location>
+                            <bloc>Europa</bloc>
+						</location>
+					</place>				
+					
+					<place xml:id= "parigi"> 
+						<placeName>
+							<settlement type="city">Parigi</settlement>
+                        	<ref target="https://it.wikipedia.org/wiki/Parigi"/>
+						</placeName>
+						<location>
+							<country>Francia</country>
+                            <bloc>Europa</bloc>
+						</location>
+					</place>
+					
+					<place xml:id= "stoccarda"> 
+						<placeName>
+							<settlement type="city" xml:lang="De">Stoccarda</settlement>
+                        	<ref target="https://it.wikipedia.org/wiki/Stoccarda"/>
+						</placeName>
+						<location>
+							<country>Germania</country>
+                            <bloc>Europa</bloc>
+						</location>
+					</place>
+
+					
+					<place xml:id= "nuova_zembla"> 
+						<placeName>
+							<region type="island">Novaja Zemlja</region>
+                        	<ref target="https://it.wikipedia.org/wiki/Novaja_Zemlja"/>
+						</placeName>
+						<location>
+							<region>Mar Glaciale Artico</region>
+							<country type="federal_subject">Arcangelo</country>
+							<country>Arcangelo</country>
+                            <bloc>Europa</bloc>
+						</location>
+					</place>
+
+					<place xml:id= "yenisei"> 
+						<placeName>
+							<geogName type="river">
+								<name>Enisej</name>
+							</geogName>
+                        	<ref target="https://it.wikipedia.org/wiki/Enisej"/>
+						</placeName>
+						<location>
+							<country>Russia</country>
+                            <bloc>Asia</bloc>
+						</location>
+					</place>
+					
+					<place xml:id= "obi"> 
+						<placeName>
+							<geogName type="river">
+								<name>Ob'</name>
+							</geogName>
+                        	<ref target="https://it.wikipedia.org/wiki/Ob%27"/>
+						</placeName>
+						<location>
+							<country>Siberia</country>
+                            <bloc>Asia</bloc>
+						</location>
+					</place>
+					
+					<place xml:id= "cancello"> 
+						<placeName>
+							<settlement type="city">Cancello</settlement>
+                        	<ref target="https://it.wikipedia.org/wiki/Cancello_Scalo"/>
+						</placeName>
+						<location>
+							<region>Campania</region>
+							<country>Italia</country>
+						</location>
+					</place>
+
+					<place xml:id= "torino"> 
+						<placeName>
+							<settlement type="city">Torino</settlement>
+                        	<ref target="https://it.wikipedia.org/wiki/Torino"/>
+						</placeName>
+						<location>
+							<region>Piemonte</region>
+							<country>Italia</country>
+						</location>
+					</place>
+
+					<place xml:id= "verona"> 
+						<placeName>
+							<settlement type="city">Verona</settlement>
+                        	<ref target="https://it.wikipedia.org/wiki/Verona"/>
+						</placeName>
+						<location>
+							<region>Veneto</region>
+							<country>Italia</country>
+						</location>
+					</place>
+
+					<place xml:id= "roma"> 
+						<placeName>
+							<settlement type="city">Roma</settlement>
+                        	<ref target="https://it.wikipedia.org/wiki/Roma"/>
+						</placeName>
+						<location>
+							<region>Lazio</region>
+							<country>Italia</country>
+						</location>
+					</place>
+
+					<place xml:id= "vienna"> 
+						<placeName>
+							<settlement type="city">Vienna</settlement>
+                        	<ref target="https://it.wikipedia.org/wiki/Vienna"/>
+						</placeName>
+						<location>
+							<country>Austria</country>
+							<bloc>Europa</bloc>
+                        </location>
+					</place>
+
+					<place xml:id = "austria">
+						<placeName>
+							<country type="state">Austria</country>
+                        	<ref target="https://it.wikipedia.org/wiki/Austria"/>
+						</placeName>
+						<location>
+                            <bloc>Europa</bloc>
+						</location>
+					</place>
+					<!-- fine luoghi -->
+				</listPlace>
+				
+				<listBibl>
+				<bibl xml:id="philosophicaltransactions">
+                        <title xml:lang="en">Philosophical transactions</title>
+                        <author ref="#cayley">Arthur Caylay</author>
+                        <date>1856</date>
+						<publisher>Nomen nescio</publisher>
+                        <ref target="https://it.wikipedia.org/wiki/Template:Sezione_vuota"></ref>
+                </bibl>
+
+				<bibl xml:id="ilconciliodelvaticano">
+                        <title>Il concilio del Vaticano</title>
+                        <author ref="#ollivier">Émile ollivier</author>
+                        <date>Nomen nescio</date>
+						<publisher>Nomen nescio</publisher>
+                        <ref target="https://it.wikipedia.org/wiki/Template:Sezione_vuota"></ref>
+                </bibl>
+
+				<bibl xml:id="presse">
+                        <title>La Presse</title>
+                        <respStmt>
+                            <resp>Fondata da</resp>
+							<persName>
+								<forename>Émile</forename>
+								<surname>de Girardin</surname>
+							</persName>
+                        </respStmt>
+                        <date from="1836" to="1927">1836-1927</date>
+						<publisher>Nomen nescio</publisher>
+                        <ref target="https://it.wikipedia.org/wiki/La_Presse"></ref>
+                </bibl>
+
+				<bibl xml:id="revue">
+                        <title xml:lang="fr">Revue des Deux Mondes</title>
+                        <respStmt>
+                            <resp>Fondata da</resp>
+							<persName>
+								<forename>François</forename>
+								<surname>Buloz</surname>
+							</persName>
+                        </respStmt>
+                        <date from="1829-07">1829</date>
+						<publisher>Nomen nescio</publisher>
+                        <ref target="https://it.wikipedia.org/wiki/Revue_des_Deux_Mondes"></ref>
+                </bibl>
+
+				<bibl xml:id="rassegnav6">
+                        <title>La Rassegna Settimanale</title>
+						<biblScope unit="Volume">N° 1</biblScope>
+						<biblScope unit="Issue">N° 6</biblScope>
+                        <respStmt>
+                            <resp>Fondata da</resp>
+							<persName>
+								<forename>Sidney</forename>
+								<surname>Sonnino</surname>
+							</persName>
+							<persName>
+								<forename>Leopoldo</forename>
+								<surname>Franchetti</surname>
+							</persName>
+                        </respStmt>
+                        <date from="1878-02-10">1878/02/10</date>
+						<publisher>Casa Editrice Barbera</publisher>
+                        <ref target="https://rassegnasettimanale.animi.it/rassegna/fascicolo-6-volume-1-1878-semestre-1-trimestre-1/"></ref>
+                </bibl>
+
+				<bibl xml:id="rassegnav15">
+                        <title>La Rassegna Settimanale</title>
+						<biblScope unit="Volume">N° 1</biblScope>
+						<biblScope unit="Issue">N° 15</biblScope>
+                        <respStmt>
+                            <resp>Fondata da</resp>
+                            <persName>
+								<forename>Sidney</forename>
+								<surname>Sonnino</surname>
+							</persName>
+							<persName>
+								<forename>Leopoldo</forename>
+								<surname>Franchetti</surname>
+							</persName>
+                        </respStmt>
+                        <date from="1878-04-14">1878/04/14</date>
+						<publisher>Casa Editrice Barbera</publisher>
+                        <ref target="https://rassegnasettimanale.animi.it/rassegna/fascicolo-15-volume-1-1878-semestre-1-trimestre-1/"></ref>
+                </bibl>
+
+				<bibl xml:id="rassegnav14">
+                        <title>La Rassegna Settimanale</title>
+						<biblScope unit="Volume">N° 1</biblScope>
+						<biblScope unit="Issue">N° 14</biblScope>
+                        <respStmt>
+                            <resp>Fondata da</resp>
+                            <persName>
+								<forename>Sidney</forename>
+								<surname>Sonnino</surname>
+							</persName>
+							<persName>
+								<forename>Leopoldo</forename>
+								<surname>Franchetti</surname>
+							</persName>
+                        </respStmt>
+                        <date from="1878-04-14">1878/04/07</date>
+						<publisher>Casa Editrice Barbera</publisher>
+                        <ref target="https://rassegnasettimanale.animi.it/rassegna/fascicolo-14-volume-1-1878-semestre-1-trimestre-1/"></ref>
+                </bibl>
+				
+				
+				<bibl xml:id="rassegna">
+                        <title>La Rassegna Settimanale</title>
+                        <respStmt>
+                            <resp>Fondata da</resp>
+							<persName>
+								<forename>Sidney</forename>
+								<surname>Sonnino</surname>
+							</persName>
+							<persName>
+								<forename>Leopoldo</forename>
+								<surname>Franchetti</surname>
+							</persName>
+                        </respStmt>
+                        <date from="1878" to="1882">1878-1882</date>
+						<publisher>Casa Editrice Barbera</publisher>
+                        <ref target="https://it.wikipedia.org/wiki/Rassegna_settimanale"></ref>
+                </bibl>
+				
+				<bibl xml:id="equalg">
+                        <title>il calcolo sulle incognite delle equazioni algebriche</title>
+                        <author ref="#biasi">Giovanni Biasi</author>
+                        <date>1876</date>
+						<publisher>Munster</publisher>
+                        <ref target="https://it.wikipedia.org/wiki/Template:Sezione_vuota"></ref>
+                </bibl>
+				
+				<bibl xml:id="equalge">
+                    <title>traite des substitutions et des equations algebriques</title>
+                    <author ref="#jordan">Camille Jordan</author>
+                    <date>1870</date>
+					<publisher>Nomen nescio</publisher>
+                    <ref target="https://it.wikipedia.org/wiki/Template:Sezione_vuota"></ref>
+                </bibl>
+				
+				<bibl xml:id="leggelettorale">
+                    <title>La legge elettorale e la proporzionalità dei voti</title>
+                    <author ref="#pg">P.G (anonimo)</author>
+                    <date>1878</date>
+					<publisher>Baglione</publisher>
+                    <ref target="https://it.wikipedia.org/wiki/Template:Sezione_vuota"></ref>
+                </bibl>
+				
+				<bibl xml:id="rassegnav6_art">
+                    <title>Dove andiamo?</title>
+                    <author ref="#pananti">Nomen nescio</author>
+					<date from="1878-02-10">1878/02/10</date>
+					<publisher>Casa Editrice Barbera</publisher>
+                    <ref target="https://rassegnasettimanale.animi.it/rassegna/fascicolo-6-volume-1-1878-semestre-1-trimestre-1/"></ref>
+                </bibl>
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
